@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename)
 const require = createRequire(import.meta.url)
 
 // Read site URL from env (fallback to localhost)
-const SITE_URL = process.env.VITE_SITE_URL || 'https://symblend.in'
+const SITE_URL = process.env.VITE_SITE_URL || 'https://tax360.pages.dev'
 
 // Manually add all tool slugs (since we can't import JSX/ESM easily into Node)
 const TOOL_SLUGS = [
