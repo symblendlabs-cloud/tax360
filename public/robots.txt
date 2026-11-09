@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (update the domain when you deploy)
-Sitemap: https://symblend.in/sitemap.xml
+Sitemap: https://tax360.pages.dev/sitemap.xml
