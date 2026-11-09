@@ -1,16 +1,31 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Seo from './Seo'
 import OfficialLinkBox from './OfficialLinkBox'
+import { loadNode, getNodeBySlug } from '../../data/nodeLoader'
 
 export default function CalculatorShell({ node, children, results }) {
-  if (!node) return null
+  // We use state to force a re-render if the node changes from GitHub
+  const [currentNode, setCurrentNode] = useState(node)
 
-  const cleanTitle = node.title.replace(/\?+$/, '').replace(/\s+/g, ' ').trim()
+  useEffect(() => {
+    if (node) {
+      loadNode(node.type, node.slug).then(() => {
+        // After fetch, get the latest version from memory
+        const updated = getNodeBySlug(node.type, node.slug)
+        if (updated) setCurrentNode(updated)
+      })
+    }
+  }, [node?.slug])
+
+  if (!currentNode) return null
+
+  const cleanTitle = currentNode.title.replace(/\?+$/, '').replace(/\s+/g, ' ').trim()
   const seoTitle = cleanTitle.toLowerCase().includes('calculator')
     ? `${cleanTitle} FY 2026-27`
     : `${cleanTitle} Calculator FY 2026-27`
 
-  // Build JSON-LD for this calculator page
+  // ... existing JSON-LD logic ...
   const siteUrl = window.location.origin
   const currentUrl = siteUrl + window.location.pathname
   const jsonLd = {
@@ -27,28 +42,16 @@ export default function CalculatorShell({ node, children, results }) {
           "price": "0",
           "priceCurrency": "INR"
         },
-        "description": node.shortAnswer || ""
+        "description": currentNode.shortAnswer || ""
       },
       {
         "@type": "HowTo",
         "name": `How to use ${cleanTitle}`,
-        "description": node.shortAnswer || "",
+        "description": currentNode.shortAnswer || "",
         "step": [
-          {
-            "@type": "HowToStep",
-            "name": "Enter your details",
-            "text": "Fill the input fields with your income, expenses, or relevant amounts."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Review the results",
-            "text": "The calculator automatically updates the results in real-time."
-          },
-          {
-            "@type": "HowToStep",
-            "name": "Read the official guidance",
-            "text": "Verify the calculation against the official Income Tax Department website."
-          }
+          { "@type": "HowToStep", "name": "Enter your details", "text": "Fill the input fields with your income, expenses, or relevant amounts." },
+          { "@type": "HowToStep", "name": "Review the results", "text": "The calculator automatically updates the results in real-time." },
+          { "@type": "HowToStep", "name": "Read the official guidance", "text": "Verify the calculation against the official Income Tax Department website." }
         ]
       }
     ]
@@ -56,7 +59,7 @@ export default function CalculatorShell({ node, children, results }) {
 
   return (
     <>
-      <Seo title={seoTitle} description={node.shortAnswer} jsonLd={jsonLd} />
+      <Seo title={seoTitle} description={currentNode.shortAnswer} jsonLd={jsonLd} />
       <div className="space-y-4">
         <nav className="text-xs text-slate-500">
           <Link to="/" className="hover:text-[#0F2A44]">Home</Link>
@@ -68,8 +71,8 @@ export default function CalculatorShell({ node, children, results }) {
 
         <header className="bg-white rounded-[12px] border border-[#E2E8F0] p-5">
           <h1 className="text-2xl mb-1">{cleanTitle}</h1>
-          {node.shortAnswer && (
-            <p className="text-sm text-slate-600">{node.shortAnswer}</p>
+          {currentNode.shortAnswer && (
+            <p className="text-sm text-slate-600">{currentNode.shortAnswer}</p>
           )}
         </header>
 
@@ -89,10 +92,10 @@ export default function CalculatorShell({ node, children, results }) {
           </div>
         </div>
 
-        {node.official && <OfficialLinkBox official={node.official} />}
+        {currentNode.official && <OfficialLinkBox official={currentNode.official} />}
 
         <div className="text-xs text-slate-500">
-          <Link to={`/tax360/${node.type}/${node.slug}`} className="font-semibold">
+          <Link to={`/tax360/${currentNode.type}/${currentNode.slug}`} className="font-semibold">
             ← Read full explanation
           </Link>
         </div>

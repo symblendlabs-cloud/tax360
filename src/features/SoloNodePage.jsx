@@ -1,5 +1,6 @@
+import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getNodeBySlug, getAllNodes } from '../data/nodeLoader'
+import { getNodeBySlug, getAllNodes, loadNode } from '../data/nodeLoader'
 import TagPills from '../core/ui/TagPills'
 import ExampleBlock from '../core/ui/ExampleBlock'
 import RuleBox from '../core/ui/RuleBox'
@@ -9,6 +10,18 @@ import Seo from '../core/ui/Seo'
 
 export default function SoloNodePage() {
   const { type, slug } = useParams()
+  const [isLoading, setIsLoading] = useState(true)
+  const [version, setVersion] = useState(0)
+
+  useEffect(() => {
+    setIsLoading(true)
+    loadNode(type, slug)
+      .then(() => {
+        setVersion(v => v + 1) // Force re-render with fresh data
+      })
+      .finally(() => setIsLoading(false))
+  }, [type, slug])
+
   const node = getNodeBySlug(type, slug)
 
   if (!node) {
@@ -18,7 +31,7 @@ export default function SoloNodePage() {
         <p className="text-slate-600 mb-4">
           No {type} found with slug <code>{slug}</code>.
         </p>
-        <Link to="/nodes" className="font-semibold">← Back to nodes</Link>
+        <Link to="/questions" className="font-semibold">← Back to questions</Link>
       </div>
     )
   }
@@ -29,8 +42,8 @@ export default function SoloNodePage() {
 
   return (
     <article className="space-y-4">
-      <Seo 
-        title={node.title} 
+      <Seo
+        title={node.title}
         description={node.shortAnswer}
         jsonLd={{
           "@context": "https://schema.org",
@@ -40,11 +53,12 @@ export default function SoloNodePage() {
             "name": node.title,
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": node.shortAnswer || node.fullAnswer
+              "text": node.shortAnswer || node.fullAnswer || ""
             }
           }]
         }}
       />
+
       <header className="bg-white rounded-[12px] border border-[#E2E8F0] p-5">
         <p className="text-xs uppercase tracking-wide text-slate-500 mb-1">
           {node.type} · {node.category}

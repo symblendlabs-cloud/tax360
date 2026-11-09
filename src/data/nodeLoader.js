@@ -2,10 +2,9 @@ import {
   DATA_REPO_BASE,
   QUESTION_FILES,
   TOOL_FILES,
-  LIBRARY_FILES,
 } from '../config/site'
 
-// Local fallbacks (bundled at build time)
+// --- LOCAL FALLBACKS ---
 import hra from './nodes/questions/hra.json'
 import sec80c from './nodes/questions/80c.json'
 import incomeTax from './nodes/questions/income-tax.json'
@@ -56,55 +55,103 @@ import epf from './nodes/tools/epf.json'
 import ppf from './nodes/tools/ppf.json'
 import youtubeTax from './nodes/tools/youtube-tax.json'
 
-const LOCAL_FALLBACK = [
-  hra, sec80c, incomeTax,
-  gst, advanceTax, gratuity, professionalTax, lateItr,
-  tdsSalary, sec44AD, sec44ADA, freelancerTax,
-  cgProperty, cgStocks, cgCrypto, tdsRateFinder,
-  gstFreelancer, gstRcm, gstItc, indexation, sec54,
-  taxPlanner, gstLateFee, businessTax, goldTax, fdTax,
-  sec80D, tdsRent, tdsFd, tdsProfessional, tdsContractor, tdsProperty,
-  sec80CCD, sec80GG, sec80TTA, sec24b,
-  sec234A, sec234B, sec234C, gstSearch,
-  carLoan, homeLoan, personalLoan, swp, sip, lumpsum, epf, ppf, youtubeTax,
-]
+// Map filenames to local JSON data and their expected Type/Slug
+const LOCAL_MAP = {
+  'hra': { data: hra, type: 'question', slug: 'hra-exemption-calculation' },
+  '80c': { data: sec80c, type: 'question', slug: 'section-80c-limit' },
+  'income-tax': { data: incomeTax, type: 'question', slug: 'income-tax-new-vs-old' },
+  'gst': { data: gst, type: 'tool', slug: 'gst-overview' },
+  'advance-tax': { data: advanceTax, type: 'tool', slug: 'advance-tax-overview' },
+  'gratuity': { data: gratuity, type: 'tool', slug: 'gratuity-overview' },
+  'professional-tax': { data: professionalTax, type: 'tool', slug: 'professional-tax-overview' },
+  'late-itr': { data: lateItr, type: 'tool', slug: 'late-itr-overview' },
+  'tds-salary': { data: tdsSalary, type: 'tool', slug: 'tds-salary-overview' },
+  '44ad': { data: sec44AD, type: 'tool', slug: '44ad-overview' },
+  '44ada': { data: sec44ADA, type: 'tool', slug: '44ada-overview' },
+  'freelancer-tax': { data: freelancerTax, type: 'tool', slug: 'freelancer-tax-overview' },
+  'cg-property': { data: cgProperty, type: 'tool', slug: 'cg-property-overview' },
+  'cg-stocks': { data: cgStocks, type: 'tool', slug: 'cg-stocks-overview' },
+  'cg-crypto': { data: cgCrypto, type: 'tool', slug: 'cg-crypto-overview' },
+  'tds-rate-finder': { data: tdsRateFinder, type: 'tool', slug: 'tds-rate-overview' },
+  'gst-freelancer': { data: gstFreelancer, type: 'tool', slug: 'gst-freelancer-overview' },
+  'gst-rcm': { data: gstRcm, type: 'tool', slug: 'gst-rcm-overview' },
+  'gst-itc': { data: gstItc, type: 'tool', slug: 'gst-itc-overview' },
+  'indexation': { data: indexation, type: 'tool', slug: 'indexation-overview' },
+  'sec54': { data: sec54, type: 'tool', slug: 'sec54-overview' },
+  'tax-planner': { data: taxPlanner, type: 'tool', slug: 'tax-planner-overview' },
+  'gst-late-fee': { data: gstLateFee, type: 'tool', slug: 'gst-late-fee-overview' },
+  'business-tax': { data: businessTax, type: 'tool', slug: 'business-tax-overview' },
+  'gold-tax': { data: goldTax, type: 'tool', slug: 'gold-tax-overview' },
+  'fd-tax': { data: fdTax, type: 'tool', slug: 'fd-tax-overview' },
+  '80d': { data: sec80D, type: 'tool', slug: '80d-overview' },
+  'tds-rent': { data: tdsRent, type: 'tool', slug: 'tds-rent-overview' },
+  'tds-fd': { data: tdsFd, type: 'tool', slug: 'tds-fd-overview' },
+  'tds-professional': { data: tdsProfessional, type: 'tool', slug: 'tds-professional-overview' },
+  'tds-contractor': { data: tdsContractor, type: 'tool', slug: 'tds-contractor-overview' },
+  'tds-property': { data: tdsProperty, type: 'tool', slug: 'tds-property-overview' },
+  '80ccd': { data: sec80CCD, type: 'tool', slug: '80ccd-overview' },
+  '80gg': { data: sec80GG, type: 'tool', slug: '80gg-overview' },
+  '80tta': { data: sec80TTA, type: 'tool', slug: '80tta-overview' },
+  '24b': { data: sec24b, type: 'tool', slug: '24b-overview' },
+  '234a': { data: sec234A, type: 'tool', slug: '234a-overview' },
+  '234b': { data: sec234B, type: 'tool', slug: '234b-overview' },
+  '234c': { data: sec234C, type: 'tool', slug: '234c-overview' },
+  'gst-search': { data: gstSearch, type: 'tool', slug: 'gst-search-overview' },
+  'car-loan': { data: carLoan, type: 'tool', slug: 'car-loan-overview' },
+  'home-loan': { data: homeLoan, type: 'tool', slug: 'home-loan-overview' },
+  'personal-loan': { data: personalLoan, type: 'tool', slug: 'personal-loan-overview' },
+  'swp': { data: swp, type: 'tool', slug: 'swp-overview' },
+  'sip': { data: sip, type: 'tool', slug: 'sip-overview' },
+  'lumpsum': { data: lumpsum, type: 'tool', slug: 'lumpsum-overview' },
+  'epf': { data: epf, type: 'tool', slug: 'epf-overview' },
+  'ppf': { data: ppf, type: 'tool', slug: 'ppf-overview' },
+  'youtube-tax': { data: youtubeTax, type: 'tool', slug: 'youtube-tax-overview' }
+}
 
-let ALL_NODES = LOCAL_FALLBACK
-let loaded = false
+let ALL_NODES = Object.values(LOCAL_MAP).map(item => item.data)
 
-async function fetchJson(url) {
+// Keep track of files we've already fetched so we don't fetch twice
+const fetchedFiles = new Set()
+
+async function fetchNodeFromGitHub(file, type) {
+  if (fetchedFiles.has(file)) return
+  fetchedFiles.add(file)
+
+  const folder = type === 'question' ? 'questions' : 'tools'
+  
   try {
-    const res = await fetch(url, { cache: 'no-store' })
-    if (!res.ok) return null
-    return await res.json()
-  } catch {
-    return null
+    // Add cache-buster to ensure fresh data
+    const res = await fetch(`${DATA_REPO_BASE}/nodes/${folder}/${file}.json?t=${Date.now()}`)
+    if (!res.ok) return // 404? Just use the local fallback quietly.
+    
+    const cloudData = await res.json()
+    
+    // Replace the local version with the cloud version in memory
+    const index = ALL_NODES.findIndex(n => n.id === cloudData.id)
+    if (index !== -1) {
+      ALL_NODES[index] = cloudData
+    }
+  } catch (err) {
+    // Ignore network errors, fallback to local
   }
 }
 
-export async function loadNodesFromGitHub() {
-  if (loaded) return ALL_NODES
-
-  const urls = [
-    ...QUESTION_FILES.map(f => `${DATA_REPO_BASE}/nodes/questions/${f}.json`),
-    ...TOOL_FILES.map(f => `${DATA_REPO_BASE}/nodes/tools/${f}.json`),
-  ]
-
-  const results = await Promise.all(urls.map(fetchJson))
-  const fetched = results.filter(Boolean)
-
-  // Only override if we got a meaningful number of nodes
-  if (fetched.length > 10) {
-    ALL_NODES = fetched
+// Called by the page to load ONLY the data it needs
+export async function loadNode(type, slug) {
+  // Find which file corresponds to this type and slug
+  const entry = Object.entries(LOCAL_MAP).find(([_, item]) => item.type === type && item.slug === slug)
+  if (entry) {
+    const [file, _] = entry
+    await fetchNodeFromGitHub(file, type)
   }
-  loaded = true
-  return ALL_NODES
 }
 
+// Used for the Homepage and Tool Hub to show all links instantly
 export function getAllNodes() {
   return ALL_NODES
 }
 
+// Get a single node synchronously (returns local first, then updated cloud data)
 export function getNodeBySlug(type, slug) {
   return ALL_NODES.find((n) => n.type === type && n.slug === slug) || null
 }
@@ -112,5 +159,3 @@ export function getNodeBySlug(type, slug) {
 export function getNodesByType(type) {
   return ALL_NODES.filter((n) => n.type === type)
 }
-
-export { LIBRARY_FILES }
