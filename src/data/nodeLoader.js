@@ -115,27 +115,45 @@ const fetchedFiles = new Set()
 
 async function fetchNodeFromGitHub(file, type) {
   if (fetchedFiles.has(file)) return
-  fetchedFiles.add(file)
+
+  // Check if we fetched this recently (within the last 60 minutes)
+  const cacheKey = `tax360_${file}`
+  const lastFetched = sessionStorage.getItem(cacheKey)
+  const now = Date.now()
+  const oneHour = 60 * 60 * 1000
+
+  if (lastFetched && now - parseInt(lastFetched) < oneHour) {
+    fetchedFiles.add(file)
+    return
+  }
 
   const folder = type === 'question' ? 'questions' : 'tools'
   
   try {
-    // Add cache-buster to ensure fresh data
-    const res = await fetch(`${DATA_REPO_BASE}/nodes/${folder}/${file}.json?t=${Date.now()}`)
-    if (!res.ok) return // 404? Just use the local fallback quietly.
+    const res = await fetch(`${DATA_REPO_BASE}/nodes/${folder}/${file}.json`, { 
+      cache: 'default' 
+    })
     
-    const cloudData = await res.json()
+    if (!res.ok && res.status !== 304) return 
     
-    // Replace the local version with the cloud version in memory
-    const index = ALL_NODES.findIndex(n => n.id === cloudData.id)
-    if (index !== -1) {
-      ALL_NODES[index] = cloudData
+    if (res.status === 200) {
+      const cloudData = await res.json()
+      
+      const index = ALL_NODES.findIndex(n => n.id === cloudData.id)
+      if (index !== -1) {
+        ALL_NODES[index] = cloudData
+      }
+      
+      sessionStorage.setItem(cacheKey, now.toString())
+    } else {
+      sessionStorage.setItem(cacheKey, now.toString())
     }
+    
+    fetchedFiles.add(file)
   } catch (err) {
-    // Ignore network errors, fallback to local
+    // Ignore network errors silently
   }
 }
-
 // Called by the page to load ONLY the data it needs
 export async function loadNode(type, slug) {
   // Find which file corresponds to this type and slug
