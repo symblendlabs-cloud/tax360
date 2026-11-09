@@ -1,0 +1,11 @@
+{
+  "id": "tool-gst-itc-2026-27",
+  "type": "tool",
+  "category": "gst",
+  "persona": ["business"],
+  "title": "Input Tax Credit (ITC) Calculator",
+  "slug": "gst-itc-overview",
+  "shortAnswer": "Calculate your net GST payable after claiming ITC.",
+  "rule": { "section": "16", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gst-itc-calculator" }
+}

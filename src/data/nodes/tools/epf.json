@@ -1,0 +1,11 @@
+{
+  "id": "tool-epf-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried"],
+  "title": "EPF Calculator",
+  "slug": "epf-overview",
+  "shortAnswer": "Estimate your Employee Provident Fund corpus.",
+  "rule": { "section": "—", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "epf-calculator" }
+}

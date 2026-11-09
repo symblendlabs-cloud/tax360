@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-professional-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["freelancer", "business"],
+  "title": "TDS on Professional Fees (194J)",
+  "slug": "tds-professional-overview",
+  "shortAnswer": "Calculate 10% TDS on consulting or professional fees.",
+  "rule": { "section": "194J", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-professional-calculator" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-fd-tax-2026-27",
+  "type": "tool",
+  "category": "income-tax",
+  "persona": ["salaried", "senior"],
+  "title": "FD Interest Tax Calculator",
+  "slug": "fd-tax-overview",
+  "shortAnswer": "Calculate TDS and net interest on Fixed Deposits.",
+  "rule": { "section": "194A", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "fd-tax-calculator" }
+}

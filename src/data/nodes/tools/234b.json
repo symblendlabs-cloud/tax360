@@ -1,0 +1,11 @@
+{
+  "id": "tool-234b-2026-27",
+  "type": "tool",
+  "category": "penalty",
+  "persona": ["business"],
+  "title": "Interest 234B",
+  "slug": "234b-overview",
+  "shortAnswer": "Interest for non-payment of advance tax.",
+  "rule": { "section": "234B", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "234b-calculator" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-gold-tax-2026-27",
+  "type": "tool",
+  "category": "capital-gains",
+  "persona": ["salaried", "business"],
+  "title": "Gold Tax Calculator",
+  "slug": "gold-tax-overview",
+  "shortAnswer": "Tax on selling physical or digital gold.",
+  "rule": { "section": "112", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gold-tax-calculator" }
+}

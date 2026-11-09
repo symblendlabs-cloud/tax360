@@ -1,0 +1,11 @@
+{
+  "id": "tool-cg-property-2026-27",
+  "type": "tool",
+  "category": "capital-gains",
+  "persona": ["salaried", "business", "nri"],
+  "title": "Capital Gains on Property",
+  "slug": "cg-property-overview",
+  "shortAnswer": "Calculate tax on sale of land or building.",
+  "rule": { "section": "54, 112", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "cg-property-calculator" }
+}

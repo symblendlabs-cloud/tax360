@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-salary-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["salaried"],
+  "title": "TDS on Salary Calculator",
+  "slug": "tds-salary-overview",
+  "shortAnswer": "Estimate the monthly TDS deducted by your employer.",
+  "rule": { "section": "192", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-salary-calculator" }
+}

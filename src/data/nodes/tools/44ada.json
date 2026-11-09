@@ -1,0 +1,11 @@
+{
+  "id": "tool-44ada-2026-27",
+  "type": "tool",
+  "category": "business",
+  "persona": ["freelancer"],
+  "title": "Section 44ADA Calculator",
+  "slug": "44ada-overview",
+  "shortAnswer": "Presumptive taxation for professionals (revenue up to 75L).",
+  "rule": { "section": "44ADA", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "44ada-calculator" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-gst-late-fee-2026-27",
+  "type": "tool",
+  "category": "gst",
+  "persona": ["business", "freelancer"],
+  "title": "GST Late Fee Calculator",
+  "slug": "gst-late-fee-overview",
+  "shortAnswer": "Calculate interest and late fees for delayed GST filing.",
+  "rule": { "section": "47", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gst-late-fee-calculator" }
+}

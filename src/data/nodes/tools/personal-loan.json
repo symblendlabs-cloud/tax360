@@ -1,0 +1,11 @@
+{
+  "id": "tool-personal-loan-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried"],
+  "title": "Personal Loan EMI",
+  "slug": "personal-loan-overview",
+  "shortAnswer": "Calculate monthly EMI for a personal loan.",
+  "rule": { "section": "—", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "personal-loan-calculator" }
+}

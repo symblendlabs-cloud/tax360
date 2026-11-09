@@ -1,0 +1,11 @@
+{
+  "id": "tool-freelancer-tax-2026-27",
+  "type": "tool",
+  "category": "freelancer",
+  "persona": ["freelancer"],
+  "title": "Freelancer Tax Calculator",
+  "slug": "freelancer-tax-overview",
+  "shortAnswer": "Estimate net income and tax for independent contractors.",
+  "rule": { "section": "194J", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "freelancer-tax-calculator" }
+}

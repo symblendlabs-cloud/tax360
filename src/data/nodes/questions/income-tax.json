@@ -1,0 +1,40 @@
+{
+  "id": "q-income-tax-2026-27",
+  "type": "question",
+  "category": "income-tax",
+  "persona": ["salaried", "business", "freelancer"],
+  "title": "Income Tax Calculator (New vs Old)",
+  "question": "Which tax regime is better for FY 2026-27?",
+  "slug": "income-tax-new-vs-old",
+  "shortAnswer": "Compare your tax liability under the New and Old regimes based on the latest slabs.",
+  "fullAnswer": "The New Tax Regime offers lower slab rates but removes most deductions (like 80C, HRA). The Old Regime has higher rates but allows deductions. This calculator uses the standard deduction for both regimes and lets you add extra deductions for the Old regime to see which one saves you more tax.",
+  "example": {
+    "inputs": { "income": 1200000, "deductions": 150000 },
+    "calculation": "New regime calculates tax on 11,25,000. Old regime calculates tax on 10,00,000.",
+    "result": "New regime saves more tax"
+  },
+  "rule": {
+    "section": "115BAC",
+    "limit": "",
+    "rate": "Slab based",
+    "fy": "2026-27",
+    "lastUpdated": "2026-04-01"
+  },
+  "official": {
+    "site": "Income Tax Department, India",
+    "directLink": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+    "pdfLink": "",
+    "steps": ["Use the official calculator to verify", "Choose regime while filing"],
+    "need": "When deciding which regime to opt for"
+  },
+  "discovery": {
+    "tags": ["income tax", "new regime", "old regime", "slabs"],
+    "aliases": ["tax calculator", "regime comparison", "115BAC"],
+    "relatedIds": ["q-80c-2026-27"],
+    "calculatorSlug": "income-tax-calculator"
+  },
+  "seo": {
+    "metaTitle": "Income Tax Calculator FY 2026-27 (New vs Old) — Tax360",
+    "metaDescription": "Compare your tax under the New and Old regimes for FY 2026-27. Free, local-only calculator."
+  }
+}

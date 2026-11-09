@@ -1,0 +1,40 @@
+{
+  "id": "q-hra-2026-27",
+  "type": "question",
+  "category": "income-tax",
+  "persona": ["salaried"],
+  "title": "How is HRA exemption calculated?",
+  "question": "How much HRA exemption can a salaried employee claim for FY 2026-27?",
+  "slug": "hra-exemption-calculation",
+  "shortAnswer": "HRA exemption is the least of: actual HRA received, rent paid minus 10% of basic salary, or 50%/40% of basic salary (metro/non-metro).",
+  "fullAnswer": "Under Section 10(13A), a salaried employee receiving HRA can claim exemption equal to the minimum of three values: (1) actual HRA received from employer, (2) rent paid minus 10% of basic salary + DA, (3) 50% of basic + DA if living in a metro city (Delhi, Mumbai, Kolkata, Chennai), otherwise 40%. Only available under the old tax regime.",
+  "example": {
+    "inputs": { "basic": 600000, "hraReceived": 240000, "rentPaid": 300000, "metro": true },
+    "calculation": "Actual HRA = 2,40,000; Rent − 10% of basic = 3,00,000 − 60,000 = 2,40,000; 50% of basic = 3,00,000. Least = 2,40,000.",
+    "result": "₹2,40,000 HRA exemption"
+  },
+  "rule": {
+    "section": "10(13A)",
+    "limit": "Least of three conditions",
+    "rate": "50% metro / 40% non-metro of basic",
+    "fy": "2026-27",
+    "lastUpdated": "2026-04-01"
+  },
+  "official": {
+    "site": "Income Tax Department, India",
+    "directLink": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+    "pdfLink": "",
+    "steps": ["Open the ITR portal", "Go to Help section → HRA"],
+    "need": "When claiming HRA exemption in ITR-1 or ITR-2"
+  },
+  "discovery": {
+    "tags": ["hra", "salary", "exemption", "section 10"],
+    "aliases": ["house rent allowance", "kiraya bhatta", "rent exemption"],
+    "relatedIds": ["q-80c-2026-27"],
+    "calculatorSlug": "hra-calculator"
+  },
+  "seo": {
+    "metaTitle": "HRA Exemption Calculator & Rules FY 2026-27 — Tax360",
+    "metaDescription": "Learn how HRA exemption under Section 10(13A) works for FY 2026-27, with examples and official Income Tax links."
+  }
+}

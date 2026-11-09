@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-rent-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["business", "freelancer", "salaried"],
+  "title": "TDS on Rent (194I)",
+  "slug": "tds-rent-overview",
+  "shortAnswer": "Calculate TDS to deduct when paying rent over 2.4L/year.",
+  "rule": { "section": "194I", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-rent-calculator" }
+}

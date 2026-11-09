@@ -1,0 +1,11 @@
+[
+  { "id": "adv-q1", "title": "Advance Tax Q1 (15%)", "date": "2026-06-15", "category": "advance-tax", "fy": "2026-27" },
+  { "id": "itr-non-audit", "title": "ITR Filing (Non-audit)", "date": "2026-07-31", "category": "itr", "fy": "2026-27" },
+  { "id": "adv-q2", "title": "Advance Tax Q2 (45%)", "date": "2026-09-15", "category": "advance-tax", "fy": "2026-27" },
+  { "id": "gstr-9", "title": "GSTR-9 Annual Return", "date": "2026-12-31", "category": "gst", "fy": "2026-27" },
+  { "id": "adv-q3", "title": "Advance Tax Q3 (75%)", "date": "2026-12-15", "category": "advance-tax", "fy": "2026-27" },
+  { "id": "belated-itr", "title": "Belated / Revised ITR", "date": "2026-12-31", "category": "itr", "fy": "2026-27" },
+  { "id": "adv-q4", "title": "Advance Tax Q4 (100%)", "date": "2027-03-15", "category": "advance-tax", "fy": "2026-27" },
+  { "id": "tds-q4", "title": "TDS Return Q4", "date": "2027-05-31", "category": "tds", "fy": "2026-27" },
+  { "id": "itr-audit", "title": "ITR Filing (Audit cases)", "date": "2026-10-31", "category": "itr", "fy": "2026-27" }
+]

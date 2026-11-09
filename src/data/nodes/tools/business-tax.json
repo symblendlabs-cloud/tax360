@@ -1,0 +1,11 @@
+{
+  "id": "tool-business-tax-2026-27",
+  "type": "tool",
+  "category": "business",
+  "persona": ["business"],
+  "title": "Business Tax Calculator",
+  "slug": "business-tax-overview",
+  "shortAnswer": "Calculate corporate tax for domestic companies.",
+  "rule": { "section": "115BAA", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "business-tax-calculator" }
+}

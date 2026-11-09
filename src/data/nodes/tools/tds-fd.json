@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-fd-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["salaried", "senior"],
+  "title": "TDS on FD (194A)",
+  "slug": "tds-fd-overview",
+  "shortAnswer": "Check if TDS applies to your fixed deposit interest.",
+  "rule": { "section": "194A", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-fd-calculator" }
+}

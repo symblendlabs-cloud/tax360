@@ -1,0 +1,11 @@
+{
+  "id": "tool-ppf-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried", "senior"],
+  "title": "PPF Calculator",
+  "slug": "ppf-overview",
+  "shortAnswer": "Estimate your Public Provident Fund corpus.",
+  "rule": { "section": "80C", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "ppf-calculator" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-cg-crypto-2026-27",
+  "type": "tool",
+  "category": "capital-gains",
+  "persona": ["salaried", "business", "freelancer"],
+  "title": "Capital Gains on Crypto",
+  "slug": "cg-crypto-overview",
+  "shortAnswer": "Flat 30% tax on Virtual Digital Assets (VDA).",
+  "rule": { "section": "115BBH", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "cg-crypto-calculator" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-contractor-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["business"],
+  "title": "TDS on Contractor (194C)",
+  "slug": "tds-contractor-overview",
+  "shortAnswer": "Calculate 1% or 2% TDS on contract payments.",
+  "rule": { "section": "194C", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-contractor-calculator" }
+}

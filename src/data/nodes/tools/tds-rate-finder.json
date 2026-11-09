@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-rate-finder-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["business", "freelancer"],
+  "title": "TDS Rate Finder",
+  "slug": "tds-rate-overview",
+  "shortAnswer": "Quickly find the TDS section and rate for common payments.",
+  "rule": { "section": "Various", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-rate-finder" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tool-80d-2026-27",
+  "type": "tool",
+  "category": "deductions",
+  "persona": ["salaried", "senior"],
+  "title": "Section 80D Calculator",
+  "slug": "80d-overview",
+  "shortAnswer": "Calculate deduction for health insurance premiums.",
+  "rule": { "section": "80D", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "80d-calculator" }
+}

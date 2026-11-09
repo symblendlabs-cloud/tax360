@@ -1,0 +1,14 @@
+[
+  { "id": "doc-pan", "category": "Basic", "item": "PAN Card" },
+  { "id": "doc-aadhaar", "category": "Basic", "item": "Aadhaar Card" },
+  { "id": "doc-form16", "category": "Income", "item": "Form 16 (from employer)" },
+  { "id": "doc-form16a", "category": "Income", "item": "Form 16A (TDS on interest/dividends)" },
+  { "id": "doc-salary", "category": "Income", "item": "Salary slips (all months)" },
+  { "id": "doc-bank-int", "category": "Income", "item": "Interest certificates (savings/FD)" },
+  { "id": "doc-80c", "category": "Deductions", "item": "Proof of 80C investments (PPF, ELSS, LIC)" },
+  { "id": "doc-80d", "category": "Deductions", "item": "Health insurance premium receipts (80D)" },
+  { "id": "doc-home-loan", "category": "Deductions", "item": "Home loan interest certificate (24b)" },
+  { "id": "doc-rent", "category": "Deductions", "item": "Rent receipts (for HRA exemption)" },
+  { "id": "doc-foreign", "category": "Special Cases", "item": "Details of foreign assets (if any)" },
+  { "id": "doc-crypto", "category": "Special Cases", "item": "Crypto trading statements (Schedule VDA)" }
+]

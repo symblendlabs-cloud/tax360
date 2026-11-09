@@ -1,0 +1,11 @@
+{
+  "id": "tool-late-itr-2026-27",
+  "type": "tool",
+  "category": "penalty",
+  "persona": ["salaried", "business", "freelancer"],
+  "title": "Late ITR Penalty Calculator",
+  "slug": "late-itr-overview",
+  "shortAnswer": "Calculate penalty and interest for filing your ITR late.",
+  "rule": { "section": "234F", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "late-itr-calculator" }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "case-1",
+    "title": "Salaried Employee with HRA & 80C",
+    "persona": "salaried",
+    "summary": "Rahul earns 12L, pays 3L rent, and invests 1.5L in PPF. Should he choose the old or new regime?",
+    "steps": [
+      "Step 1: Calculate New Regime Tax. 12L - 75k standard deduction = 11.25L taxable.",
+      "Step 2: Calculate Old Regime Tax. 12L - 50k standard - 3L HRA (approx) - 1.5L 80C = 7L taxable.",
+      "Step 3: Compare. The old regime tax on 7L is significantly lower than the new regime tax on 11.25L."
+    ],
+    "conclusion": "Despite the hype, the Old Regime saves Rahul more tax because his deductions are high."
+  },
+  {
+    "id": "case-2",
+    "title": "Freelancer with 44ADA",
+    "persona": "freelancer",
+    "summary": "Priya earns 40L as a consultant. She opts for presumptive taxation under 44ADA.",
+    "steps": [
+      "Step 1: Under 44ADA, only 50% of gross receipts are deemed as profit.",
+      "Step 2: Taxable income = 40L / 2 = 20L.",
+      "Step 3: She pays tax on 20L instead of 40L, without maintaining detailed books of account."
+    ],
+    "conclusion": "44ADA is a massive benefit for freelancers with high revenue and low expenses."
+  },
+  {
+    "id": "case-3",
+    "title": "Senior Citizen with FD Interest",
+    "persona": "senior",
+    "summary": "Mr. Sharma (65) earns 8L pension and 2L FD interest.",
+    "steps": [
+      "Step 1: Pension is taxed as salary (standard deduction applies).",
+      "Step 2: FD interest is taxed under 'Income from Other Sources'.",
+      "Step 3: He can claim 80TTB deduction up to 50,000 on the FD interest."
+    ],
+    "conclusion": "Seniors get higher exemption limits on interest income compared to regular citizens."
+  }
+]

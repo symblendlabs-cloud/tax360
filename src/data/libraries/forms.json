@@ -1,0 +1,26 @@
+[
+  {
+    "id": "itr-1",
+    "name": "ITR-1 (Sahaj)",
+    "applicableFor": "Resident individuals with income up to ₹50 Lakhs from salary, one house property, and other sources (like interest).",
+    "notFor": "Not for NRIs, capital gains, business income, or foreign assets."
+  },
+  {
+    "id": "itr-2",
+    "name": "ITR-2",
+    "applicableFor": "Individuals and HUFs with income over ₹50 Lakhs, capital gains, foreign assets, or multiple house properties.",
+    "notFor": "Not for those with business or professional income."
+  },
+  {
+    "id": "itr-3",
+    "name": "ITR-3",
+    "applicableFor": "Individuals and HUFs with income from a proprietary business or profession.",
+    "notFor": "Not for those opting for presumptive taxation (44AD/44ADA)."
+  },
+  {
+    "id": "itr-4",
+    "name": "ITR-4 (Sugam)",
+    "applicableFor": "Individuals, HUFs, and firms with presumptive business income (Section 44AD, 44ADA, 44AE) and total income up to ₹50 Lakhs.",
+    "notFor": "Not for capital gains, foreign assets, or regular business income."
+  }
+]

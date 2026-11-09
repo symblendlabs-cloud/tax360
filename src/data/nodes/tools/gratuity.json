@@ -1,0 +1,11 @@
+{
+  "id": "tool-gratuity-2026-27",
+  "type": "tool",
+  "category": "salary",
+  "persona": ["salaried"],
+  "title": "Gratuity Calculator",
+  "slug": "gratuity-overview",
+  "shortAnswer": "Calculate gratuity payable on retirement or resignation.",
+  "rule": { "section": "10(10)", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gratuity-calculator" }
+}

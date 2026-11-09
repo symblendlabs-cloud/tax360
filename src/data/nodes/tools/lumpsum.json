@@ -1,0 +1,11 @@
+{
+  "id": "tool-lumpsum-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried"],
+  "title": "Lumpsum Calculator",
+  "slug": "lumpsum-overview",
+  "shortAnswer": "Estimate returns from a one-time investment.",
+  "rule": { "section": "—", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "lumpsum-calculator" }
+}

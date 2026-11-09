@@ -1,0 +1,11 @@
+{
+  "id": "tool-youtube-tax-2026-27",
+  "type": "tool",
+  "category": "business",
+  "persona": ["freelancer", "business"],
+  "title": "YouTube Creator Tax",
+  "slug": "youtube-tax-overview",
+  "shortAnswer": "Calculate tax on AdSense, sponsorships, and affiliate income.",
+  "rule": { "section": "44AD, 194J", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "youtube-tax-calculator" }
+}

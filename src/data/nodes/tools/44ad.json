@@ -1,0 +1,11 @@
+{
+  "id": "tool-44ad-2026-27",
+  "type": "tool",
+  "category": "business",
+  "persona": ["business"],
+  "title": "Section 44AD Calculator",
+  "slug": "44ad-overview",
+  "shortAnswer": "Presumptive taxation for small businesses (turnover up to 3Cr).",
+  "rule": { "section": "44AD", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "44ad-calculator" }
+}

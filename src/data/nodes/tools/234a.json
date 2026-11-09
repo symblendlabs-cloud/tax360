@@ -1,0 +1,11 @@
+{
+  "id": "tool-234a-2026-27",
+  "type": "tool",
+  "category": "penalty",
+  "persona": ["salaried", "business"],
+  "title": "Interest 234A",
+  "slug": "234a-overview",
+  "shortAnswer": "Interest for late filing of return where tax is due.",
+  "rule": { "section": "234A", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "234a-calculator" }
+}

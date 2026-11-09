@@ -1,0 +1,11 @@
+{
+  "id": "tool-gst-rcm-2026-27",
+  "type": "tool",
+  "category": "gst",
+  "persona": ["business"],
+  "title": "Reverse Charge Mechanism (RCM)",
+  "slug": "gst-rcm-overview",
+  "shortAnswer": "Calculate GST you must pay directly under RCM.",
+  "rule": { "section": "9(3)", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gst-rcm-calculator" }
+}

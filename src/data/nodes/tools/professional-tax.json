@@ -1,0 +1,11 @@
+{
+  "id": "tool-pt-2026-27",
+  "type": "tool",
+  "category": "state-tax",
+  "persona": ["salaried", "business"],
+  "title": "Professional Tax Calculator",
+  "slug": "professional-tax-overview",
+  "shortAnswer": "Check your monthly professional tax based on your state.",
+  "rule": { "section": "276", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "professional-tax-calculator" }
+}

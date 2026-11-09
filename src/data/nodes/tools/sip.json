@@ -1,0 +1,11 @@
+{
+  "id": "tool-sip-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried", "freelancer"],
+  "title": "SIP Calculator",
+  "slug": "sip-overview",
+  "shortAnswer": "Estimate returns from a Systematic Investment Plan.",
+  "rule": { "section": "—", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "sip-calculator" }
+}

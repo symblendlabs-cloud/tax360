@@ -1,0 +1,11 @@
+{
+  "id": "tool-24b-2026-27",
+  "type": "tool",
+  "category": "deductions",
+  "persona": ["salaried"],
+  "title": "24(b) Home Loan Interest",
+  "slug": "24b-overview",
+  "shortAnswer": "Deduction up to 2,00,000 on home loan interest.",
+  "rule": { "section": "24(b)", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "24b-calculator" }
+}

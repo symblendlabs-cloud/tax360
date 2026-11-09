@@ -1,0 +1,11 @@
+{
+  "id": "tool-80ccd-2026-27",
+  "type": "tool",
+  "category": "deductions",
+  "persona": ["salaried"],
+  "title": "NPS (80CCD)",
+  "slug": "80ccd-overview",
+  "shortAnswer": "Additional NPS deduction up to 50,000 under 80CCD(1B).",
+  "rule": { "section": "80CCD", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "80ccd-calculator" }
+}

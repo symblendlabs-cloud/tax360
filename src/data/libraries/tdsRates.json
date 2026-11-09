@@ -1,0 +1,12 @@
+{
+  "2026-27": [
+    { "section": "192", "label": "Salary", "rate": "As per slab", "threshold": null, "type": "salary" },
+    { "section": "194A", "label": "Interest (other than securities)", "rate": "10%", "threshold": 40000, "type": "interest" },
+    { "section": "194C", "label": "Contractor payments", "rate": "1% (individual/HUF) / 2% (others)", "threshold": 30000, "type": "contractor" },
+    { "section": "194H", "label": "Commission / brokerage", "rate": "2%", "threshold": 15000, "type": "commission" },
+    { "section": "194I", "label": "Rent (land/building/furniture)", "rate": "10%", "threshold": 240000, "type": "rent" },
+    { "section": "194J", "label": "Professional / technical fees", "rate": "10%", "threshold": 30000, "type": "professional" },
+    { "section": "194O", "label": "E-commerce operator payments", "rate": "0.1%", "threshold": 500000, "type": "ecommerce" },
+    { "section": "194Q", "label": "Purchase of goods", "rate": "0.1%", "threshold": 5000000, "type": "goods" }
+  ]
+}

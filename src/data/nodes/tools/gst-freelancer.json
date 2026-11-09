@@ -1,0 +1,11 @@
+{
+  "id": "tool-gst-freelancer-2026-27",
+  "type": "tool",
+  "category": "gst",
+  "persona": ["freelancer"],
+  "title": "GST for Freelancers",
+  "slug": "gst-freelancer-overview",
+  "shortAnswer": "Check if you need GST registration based on your revenue.",
+  "rule": { "section": "22", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gst-freelancer-calculator" }
+}

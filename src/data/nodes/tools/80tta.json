@@ -1,0 +1,11 @@
+{
+  "id": "tool-80tta-2026-27",
+  "type": "tool",
+  "category": "deductions",
+  "persona": ["salaried"],
+  "title": "80TTA Savings Interest",
+  "slug": "80tta-overview",
+  "shortAnswer": "Deduction up to 10,000 on savings bank interest.",
+  "rule": { "section": "80TTA", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "80tta-calculator" }
+}

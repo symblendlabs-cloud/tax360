@@ -1,0 +1,26 @@
+[
+  {
+    "id": "myth-1",
+    "myth": "If my income is below 5 lakh, I don't need to file an ITR.",
+    "truth": "Not entirely true. You must file an ITR if you have income from foreign assets, deposited over 1 crore in bank accounts, paid over 2 lakh in electricity bills, or traveled abroad costing over 2 lakh.",
+    "fact": "Filing is often mandatory regardless of income."
+  },
+  {
+    "id": "myth-2",
+    "myth": "I can claim HRA and home loan tax benefits together.",
+    "truth": "You can, but only if you genuinely live in rented accommodation while your own house is in a different city (or is under construction).",
+    "fact": "Both can be claimed under specific conditions."
+  },
+  {
+    "id": "myth-3",
+    "myth": "Gifts from friends and family are always tax-free.",
+    "truth": "Gifts are tax-free up to 50,000 per year. Above that, they are taxable as income unless received from a defined relative (parents, siblings, spouse) or at a wedding.",
+    "fact": "Limit is 50,000; relatives are exempt."
+  },
+  {
+    "id": "myth-4",
+    "myth": "The new tax regime is always better.",
+    "truth": "It depends on your deductions. If you claim heavy deductions like 80C, 80D, HRA, and home loan interest, the old regime might save you more.",
+    "fact": "Use the calculator to compare both regimes."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "tool-tax-planner-2026-27",
+  "type": "tool",
+  "category": "planning",
+  "persona": ["salaried", "business"],
+  "title": "Tax Saving Planner",
+  "slug": "tax-planner-overview",
+  "shortAnswer": "Find out how much more you need to invest under 80C to save tax.",
+  "rule": { "section": "80C", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tax-planner-calculator" }
+}

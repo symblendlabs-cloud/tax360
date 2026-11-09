@@ -1,0 +1,11 @@
+{
+  "id": "tool-indexation-2026-27",
+  "type": "tool",
+  "category": "capital-gains",
+  "persona": ["salaried", "business"],
+  "title": "Indexation Benefit Calculator",
+  "slug": "indexation-overview",
+  "shortAnswer": "Adjust the purchase price of property for inflation to reduce tax.",
+  "rule": { "section": "48", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "indexation-calculator" }
+}

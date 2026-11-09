@@ -1,0 +1,11 @@
+{
+  "id": "tool-car-loan-2026-27",
+  "type": "tool",
+  "category": "finance",
+  "persona": ["salaried", "business"],
+  "title": "Car Loan EMI",
+  "slug": "car-loan-overview",
+  "shortAnswer": "Calculate monthly EMI for your car loan.",
+  "rule": { "section": "—", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "car-loan-calculator" }
+}

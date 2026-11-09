@@ -1,0 +1,11 @@
+{
+  "id": "tool-gst-search-2026-27",
+  "type": "tool",
+  "category": "gst",
+  "persona": ["business", "freelancer"],
+  "title": "GST HSN/SAC Search",
+  "slug": "gst-search-overview",
+  "shortAnswer": "Look up GST rate by HSN (goods) or SAC (services) code.",
+  "rule": { "section": "Various", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "gst-search-calculator" }
+}

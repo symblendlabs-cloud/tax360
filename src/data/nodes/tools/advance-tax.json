@@ -1,0 +1,11 @@
+{
+  "id": "tool-advance-tax-2026-27",
+  "type": "tool",
+  "category": "income-tax",
+  "persona": ["business", "freelancer", "salaried"],
+  "title": "Advance Tax Calculator",
+  "slug": "advance-tax-overview",
+  "shortAnswer": "Calculate your quarterly advance tax installments.",
+  "rule": { "section": "208", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "advance-tax-calculator" }
+}

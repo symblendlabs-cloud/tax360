@@ -1,0 +1,11 @@
+{
+  "id": "tool-sec54-2026-27",
+  "type": "tool",
+  "category": "capital-gains",
+  "persona": ["salaried", "business"],
+  "title": "Section 54 Exemption",
+  "slug": "sec54-overview",
+  "shortAnswer": "Save tax on property gains by buying a new house.",
+  "rule": { "section": "54", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "sec54-calculator" }
+}

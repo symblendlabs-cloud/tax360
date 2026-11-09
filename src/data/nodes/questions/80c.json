@@ -1,0 +1,40 @@
+{
+  "id": "q-80c-2026-27",
+  "type": "question",
+  "category": "income-tax",
+  "persona": ["salaried", "business", "freelancer"],
+  "title": "What is the 80C deduction limit?",
+  "question": "What is the maximum deduction available under Section 80C for FY 2026-27?",
+  "slug": "section-80c-limit",
+  "shortAnswer": "₹1,50,000 per year under the old tax regime. Not available in the new regime.",
+  "fullAnswer": "Section 80C allows a maximum deduction of ₹1,50,000 per financial year for specified investments and expenses such as PPF, ELSS, life insurance premium, principal repayment on home loan, tuition fees, and NSC. Only available if you opt for the old tax regime. The overall ceiling under Section 80CCE (80C + 80CCC + 80CCD(1)) is ₹1,50,000.",
+  "example": {
+    "inputs": { "ppf": 100000, "elss": 40000, "lifeInsurance": 20000 },
+    "calculation": "Total = 1,60,000, capped at 1,50,000.",
+    "result": "₹1,50,000 deduction"
+  },
+  "rule": {
+    "section": "80C",
+    "limit": "1,50,000",
+    "rate": "As per slab",
+    "fy": "2026-27",
+    "lastUpdated": "2026-04-01"
+  },
+  "official": {
+    "site": "Income Tax Department, India",
+    "directLink": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1",
+    "pdfLink": "",
+    "steps": ["Claim while filing ITR under Chapter VI-A deductions"],
+    "need": "When filing return under old regime"
+  },
+  "discovery": {
+    "tags": ["80c", "deduction", "ppf", "elss", "old regime"],
+    "aliases": ["section 80c limit", "tax saving investment", "80c deduction"],
+    "relatedIds": ["q-hra-2026-27"],
+    "calculatorSlug": "80c-calculator"
+  },
+  "seo": {
+    "metaTitle": "Section 80C Limit FY 2026-27 — Tax360",
+    "metaDescription": "Section 80C deduction limit for FY 2026-27 is ₹1.5 lakh. Understand eligible investments and rules."
+  }
+}

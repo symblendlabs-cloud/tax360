@@ -1,0 +1,11 @@
+{
+  "id": "tool-80gg-2026-27",
+  "type": "tool",
+  "category": "deductions",
+  "persona": ["salaried"],
+  "title": "80GG Rent Deduction",
+  "slug": "80gg-overview",
+  "shortAnswer": "Rent deduction for those who don't receive HRA.",
+  "rule": { "section": "80GG", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "80gg-calculator" }
+}

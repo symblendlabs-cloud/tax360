@@ -1,0 +1,11 @@
+{
+  "id": "tool-tds-property-2026-27",
+  "type": "tool",
+  "category": "tds",
+  "persona": ["salaried", "business"],
+  "title": "TDS on Property (194IA)",
+  "slug": "tds-property-overview",
+  "shortAnswer": "1% TDS to deduct when buying property over 50L.",
+  "rule": { "section": "194IA", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "tds-property-calculator" }
+}

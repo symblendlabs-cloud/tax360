@@ -1,0 +1,11 @@
+{
+  "id": "tool-234c-2026-27",
+  "type": "tool",
+  "category": "penalty",
+  "persona": ["business"],
+  "title": "Interest 234C",
+  "slug": "234c-overview",
+  "shortAnswer": "Interest for deferment of advance tax.",
+  "rule": { "section": "234C", "fy": "2026-27" },
+  "discovery": { "calculatorSlug": "234c-calculator" }
+}

@@ -1,0 +1,20 @@
+{
+  "2026-27": {
+    "slabs": [
+      { "section": "80C", "label": "Investments (PPF, ELSS, LIC, principal, tuition)", "limit": 150000, "regime": "old", "fy": "2026-27" },
+      { "section": "80CCD(1B)", "label": "NPS additional", "limit": 50000, "regime": "old", "fy": "2026-27" },
+      { "section": "80D", "label": "Health insurance (self + family, below 60)", "limit": 25000, "regime": "old", "fy": "2026-27" },
+      { "section": "80D-parents", "label": "Health insurance (parents, below 60)", "limit": 25000, "regime": "old", "fy": "2026-27" },
+      { "section": "80TTA", "label": "Savings account interest", "limit": 10000, "regime": "old", "fy": "2026-27" },
+      { "section": "80TTB", "label": "Interest income (senior citizens)", "limit": 50000, "regime": "old", "fy": "2026-27" },
+      { "section": "24(b)", "label": "Home loan interest (self-occupied)", "limit": 200000, "regime": "old", "fy": "2026-27" },
+      { "section": "80G", "label": "Donations", "limit": null, "regime": "old", "fy": "2026-27" },
+      { "section": "standard", "label": "Standard deduction (salaried)", "limit": 75000, "regime": "new", "fy": "2026-27" }
+    ],
+    "hra": {
+      "metroPercent": 50,
+      "nonMetroPercent": 40,
+      "basicDeductionPercent": 10
+    }
+  }
+}

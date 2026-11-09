@@ -1,0 +1,6 @@
+{
+  "2026-27": {
+    "standardRates": [5, 12, 18, 28],
+    "defaultRate": 18
+  }
+}
