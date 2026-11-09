@@ -1,3 +1,4 @@
+import Seo from '../core/ui/Seo'
 import { Link } from 'react-router-dom'
 import { CALCULATORS } from './calculators/CalculatorRouter'
 
@@ -24,6 +25,10 @@ export default function CalculatorHub() {
 
   return (
     <div className="space-y-8">
+      <Seo 
+        title="All Calculators" 
+        description="Browse 49 free, local-only tax and finance calculators for India." 
+      />
       <header className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 sm:p-8">
         <h1 className="text-2xl mb-2">All Calculators</h1>
         <p className="text-sm text-slate-600">

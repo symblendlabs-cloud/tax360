@@ -1,3 +1,4 @@
+import Seo from '../core/ui/Seo'
 import { Link } from 'react-router-dom'
 import { useMemo } from 'react'
 import { useSearchStore } from '../store/searchStore'
@@ -48,6 +49,10 @@ export default function Home() {
 
   return (
     <div className="space-y-6">
+      <Seo 
+        title="All Tax Data in One Place" 
+        description="Free, local-only tax calculators for India. 48+ tools covering Income Tax, GST, TDS, Capital Gains, and more. No login, no data tracking." 
+      />
       {/* Hero */}
       <section className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 sm:p-8">
         <h1 className="text-2xl sm:text-3xl mb-2">
