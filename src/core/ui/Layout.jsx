@@ -1,20 +1,19 @@
 import { Link, Outlet } from 'react-router-dom'
 import FYSelector from './FYSelector'
 import NavMenu from './NavMenu'
-import { useFY } from '../../context/FYContext'
 import MobileMenu from './MobileMenu'
+import { useFY } from '../../context/FYContext'
 
 export default function Layout() {
   const { fy } = useFY()
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8FAFC]">
+      {/* HEADER */}
       <header className="bg-[#0F2A44] text-white sticky top-0 z-50 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+        <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center justify-between gap-4 relative">
           <div className="flex items-center gap-4">
-            <Link to="/" className="text-white font-bold text-lg tracking-tight">
-              Tax360
-            </Link>
+            <Link to="/" className="text-white font-bold text-lg tracking-tight">Tax360</Link>
             <NavMenu />
           </div>
           <div className="flex items-center gap-4">
@@ -25,12 +24,14 @@ export default function Layout() {
         </div>
       </header>
 
-      <main className="flex-1">
-        <div className="max-w-6xl mx-auto px-4 py-6">
+      {/* MAIN WRAPPER - Clean, no side ad wrappers */}
+      <div className="flex-1 w-full flex justify-center">
+        <main className="w-full max-w-[1200px] px-4 py-6">
           <Outlet />
-        </div>
-      </main>
+        </main>
+      </div>
 
+      {/* FOOTER */}
       <footer className="bg-white border-t border-[#E2E8F0] mt-8">
         <div className="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
