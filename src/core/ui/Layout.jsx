@@ -13,7 +13,9 @@ export default function Layout() {
       <header className="bg-[#0F2A44] text-white sticky top-0 z-50 shadow-sm">
         <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center justify-between gap-4 relative">
           <div className="flex items-center gap-4">
-            <Link to="/" className="text-white font-bold text-lg tracking-tight">Tax360</Link>
+            <Link to="/" className="hover:opacity-90 transition flex items-center">
+              <img src="/logo.png" alt="Tax360 by Symblend" className="h-10 w-auto" />
+            </Link>
             <NavMenu />
           </div>
           <div className="flex items-center gap-4">
