@@ -14,11 +14,7 @@ export default function Layout() {
         <div className="max-w-[1400px] mx-auto px-4 py-3 flex items-center justify-between gap-4 relative">
           <div className="flex items-center gap-4">
             <Link to="/" className="flex items-center hover:opacity-90 transition">
-              <img 
-                src="/logo.png" 
-                alt="Tax360 by Symblend" 
-                className="h-8 w-auto" 
-              />
+            {/* Logo */} <img src="/logo.png" alt="Tax360 by Symblend" className="h-8 w-auto" />
             </Link>
             <NavMenu />
           </div>
