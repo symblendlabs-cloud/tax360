@@ -24,11 +24,13 @@ import About from './features/About'
 import Privacy from './features/Privacy'
 import Contact from './features/Contact'
 import Terms from './features/Terms'
+import Analytics from './core/ui/Analytics'
 
 export default function App() {
   return (
     <FYProvider>
       <BrowserRouter>
+      <Analytics />
         <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
