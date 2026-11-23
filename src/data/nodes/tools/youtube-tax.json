@@ -1,11 +1,20 @@
-{
-  "id": "tool-youtube-tax-2026-27",
-  "type": "tool",
-  "category": "business",
-  "persona": ["freelancer", "business"],
-  "title": "YouTube Creator Tax",
-  "slug": "youtube-tax-overview",
-  "shortAnswer": "Calculate tax on AdSense, sponsorships, and affiliate income.",
-  "rule": { "section": "44AD, 194J", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "youtube-tax-calculator" }
+﻿{
+    "id":  "tool-youtube-tax-2026-27",
+    "type":  "tool",
+    "category":  "business",
+    "persona":  [
+                    "freelancer",
+                    "business"
+                ],
+    "title":  "YouTube Creator Tax",
+    "slug":  "youtube-tax",
+    "shortAnswer":  "Calculate tax on AdSense, sponsorships, and affiliate income.",
+    "longAnswer": "Income from YouTube—AdSense revenue, sponsorships, affiliate commissions, and merchandise—is business or professional income, not salary. It is taxed at your slab rate after deducting business expenses such as equipment, software, internet, and a portion of home office costs. If your gross receipts are up to ₹75 lakh (₹50 lakh under the general limit) and you are an eligible professional, you can opt for Section 44ADA and declare 50% of receipts as income; if you are a business, Section 44AD allows 8% (6% for digital receipts) of turnover up to ₹3 crore. GST registration is required once turnover crosses ₹20 lakh (₹10 lakh in special-category states), and foreign AdSense revenue may attract GST under export rules. The YouTube Tax Calculator takes your annual revenue and expenses to estimate taxable income and tax. It does not compute GST or TDS. Confirm your eligibility for 44AD/44ADA and the GST threshold with a chartered accountant.",
+    "rule":  {
+                 "section":  "44AD, 194J",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "youtube-tax-calculator"
+                  }
 }

@@ -1,11 +1,21 @@
-{
-  "id": "tool-cg-crypto-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business", "freelancer"],
-  "title": "Capital Gains on Crypto",
-  "slug": "cg-crypto-overview",
-  "shortAnswer": "Flat 30% tax on Virtual Digital Assets (VDA).",
-  "rule": { "section": "115BBH", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "cg-crypto-calculator" }
+﻿{
+    "id":  "tool-cg-crypto-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "Capital Gains on Crypto",
+    "slug":  "capital-gains-crypto",
+    "shortAnswer":  "Flat 30% tax on Virtual Digital Assets (VDA).",
+    "longAnswer": "Virtual digital assets (crypto, NFTs, tokens) are taxed under Section 115BBH. Gains are taxed at a flat 30% with no deduction for expenses other than the cost of acquisition, and no set-off of losses against other income or against gains from other crypto assets. A 1% TDS under Section 194S applies on transfer, and the buyer deducts it. The holding period does not matter—there is no long-term or short-term distinction, so the 30% rate applies regardless of how long you held the asset. The calculator takes your sale value and cost of acquisition to show the taxable gain and the 30% liability, plus the 194S TDS. It does not account for the 1% TDS already deducted (which you claim as a credit when filing). Report crypto gains in Schedule VDA of the ITR. Verify the current rules on the e-filing portal, as the VDA regime is still evolving.",
+    "rule":  {
+                 "section":  "115BBH",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "cg-crypto-calculator"
+                  }
 }

@@ -1,11 +1,19 @@
-{
-  "id": "tool-gratuity-2026-27",
-  "type": "tool",
-  "category": "salary",
-  "persona": ["salaried"],
-  "title": "Gratuity Calculator",
-  "slug": "gratuity-overview",
-  "shortAnswer": "Calculate gratuity payable on retirement or resignation.",
-  "rule": { "section": "10(10)", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gratuity-calculator" }
+﻿{
+    "id":  "tool-gratuity-2026-27",
+    "type":  "tool",
+    "category":  "salary",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "Gratuity Calculator",
+    "slug":  "gratuity",
+    "shortAnswer":  "Calculate gratuity payable on retirement or resignation.",
+    "longAnswer": "Gratuity is a lump-sum payment by an employer for continuous service of five years or more. It is calculated as 15/26 × last drawn salary × years of service for employees covered by the Payment of Gratuity Act, or 15/30 × last drawn salary × years of service for others. The amount is exempt from tax up to ₹20 lakh for employees covered by the Act, and up to the least of ₹20 lakh, 15/30 × salary × years, or actual gratuity for others. Amounts above the exemption are taxed as salary income. The calculator takes your last drawn salary, years of service, and coverage under the Act to compute the gratuity and the taxable portion. It does not account for the ₹20 lakh lifetime cap across employers—if you have claimed gratuity exemption before, the remaining headroom is lower. Confirm the calculation with your employer's HR and the exemption with a chartered accountant.",
+    "rule":  {
+                 "section":  "10(10)",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gratuity-calculator"
+                  }
 }

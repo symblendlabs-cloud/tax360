@@ -1,11 +1,20 @@
-{
-  "id": "tool-234a-2026-27",
-  "type": "tool",
-  "category": "penalty",
-  "persona": ["salaried", "business"],
-  "title": "Interest 234A",
-  "slug": "234a-overview",
-  "shortAnswer": "Interest for late filing of return where tax is due.",
-  "rule": { "section": "234A", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "234a-calculator" }
+﻿{
+    "id":  "tool-234a-2026-27",
+    "type":  "tool",
+    "category":  "penalty",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Interest 234A",
+    "slug":  "234a",
+    "shortAnswer":  "Interest for late filing of return where tax is due.",
+    "longAnswer": "Section 234A charges interest for late filing of your income tax return. If you file after the due date, interest is levied at 1% per month or part of a month on the unpaid tax, calculated from the day after the due date until the date you actually file. For most individual taxpayers the due date is 31 July of the assessment year; for businesses requiring audit it is 31 October, and for transfer-pricing cases 30 November. The interest applies only to tax that remains unpaid—if you paid your full tax before the due date but filed late, the 234A interest is nil. The calculator takes your unpaid tax amount and the number of months of delay to estimate the interest. Part months count as full months, and the amount is shown separately from 234B and 234C interest on the intimation. Verify the final figure in the ITR utility or on the e-filing portal.",
+    "rule":  {
+                 "section":  "234A",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "234a-calculator"
+                  }
 }

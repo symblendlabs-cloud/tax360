@@ -1,11 +1,20 @@
-{
-  "id": "tool-gold-tax-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business"],
-  "title": "Gold Tax Calculator",
-  "slug": "gold-tax-overview",
-  "shortAnswer": "Tax on selling physical or digital gold.",
-  "rule": { "section": "112", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gold-tax-calculator" }
+﻿{
+    "id":  "tool-gold-tax-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Gold Tax Calculator",
+    "slug":  "gold-tax",
+    "shortAnswer":  "Tax on selling physical or digital gold.",
+    "longAnswer": "Gold is taxed as a capital asset, and the rate depends on the holding period and form. For physical gold and gold ETFs, a holding period of more than 24 months is long-term, taxed at 12.5% without indexation (indexation withdrawn for transfers on or after 23 July 2024); 24 months or less is short-term, taxed at slab rates. Sovereign Gold Bonds are different—redemption at maturity is exempt from capital gains, and interest is taxable at slab. Gold jewellery bought for personal use follows the same capital-gains rules, though the cost of acquisition must be established. The calculator takes your purchase price, sale price, and holding period to classify the gain and estimate the tax. Making charges are part of the cost. The result is an estimate—confirm the rate for your sale date and the documentation for cost. Report in the capital-gains schedule of the ITR.",
+    "rule":  {
+                 "section":  "112",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gold-tax-calculator"
+                  }
 }

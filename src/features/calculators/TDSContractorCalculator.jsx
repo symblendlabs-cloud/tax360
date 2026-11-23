@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSContractorCalculator() {
-  const node = getNodeBySlug('tool', 'tds-contractor-overview')
+  const node = getNodeBySlug('tool', 'tds-contractor')
   const [amount, setAmount] = useState(100000)
   const [individual, setIndividual] = useState(true)
   

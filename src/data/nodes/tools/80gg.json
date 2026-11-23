@@ -1,11 +1,19 @@
-{
-  "id": "tool-80gg-2026-27",
-  "type": "tool",
-  "category": "deductions",
-  "persona": ["salaried"],
-  "title": "80GG Rent Deduction",
-  "slug": "80gg-overview",
-  "shortAnswer": "Rent deduction for those who don't receive HRA.",
-  "rule": { "section": "80GG", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "80gg-calculator" }
+﻿{
+    "id":  "tool-80gg-2026-27",
+    "type":  "tool",
+    "category":  "deductions",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "80GG Rent Deduction",
+    "slug":  "80gg",
+    "shortAnswer":  "Rent deduction for those who don\u0027t receive HRA.",
+    "longAnswer": "Section 80GG allows a deduction for rent paid when you do not receive House Rent Allowance (HRA) from your employer. The deduction is the least of three amounts: ₹5,000 per month (₹60,000 per year), 25% of your adjusted total income, or the actual rent paid minus 10% of adjusted total income. It is available only to individuals and only under the old tax regime. You cannot claim 80GG if you, your spouse, or your minor child owns a house property at the place of employment, or if you claim HRA. The calculator takes your total income and annual rent to compute the three limits and show the allowable deduction. Form 10BA must be filed to claim it. The deduction is capped and rarely exceeds ₹60,000 a year, so it is often smaller than HRA. Confirm your eligibility before filing.",
+    "rule":  {
+                 "section":  "80GG",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "80gg-calculator"
+                  }
 }

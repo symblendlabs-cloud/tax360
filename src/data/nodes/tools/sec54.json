@@ -1,11 +1,20 @@
-{
-  "id": "tool-sec54-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business"],
-  "title": "Section 54 Exemption",
-  "slug": "sec54-overview",
-  "shortAnswer": "Save tax on property gains by buying a new house.",
-  "rule": { "section": "54", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "sec54-calculator" }
+﻿{
+    "id":  "tool-sec54-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Section 54 Exemption",
+    "slug":  "sec54",
+    "shortAnswer":  "Save tax on property gains by buying a new house.",
+    "longAnswer": "Section 54 exempts long-term capital gains on the sale of a residential house if you reinvest the gain in another residential house in India. The exemption is the lower of the capital gain or the amount invested in the new house. To qualify, the original house must have been held for more than 24 months, and the new house must be purchased within one year before or two years after the sale, or constructed within three years. Only one house can be bought to claim the exemption (two if the gain is up to ₹2 crore and you reinvest in two houses, subject to conditions). If you sell the new house within three years, the exemption is withdrawn. The Section 54 Exemption Calculator takes the capital gain and the reinvestment amount to show the exempt and taxable portions. The uninvested gain can be deposited in the Capital Gains Account Scheme before the due date to preserve the exemption. Confirm the conditions on the e-filing portal.",
+    "rule":  {
+                 "section":  "54",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "sec54-calculator"
+                  }
 }

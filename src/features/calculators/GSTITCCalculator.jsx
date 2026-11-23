@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTITCCalculator() {
-  const node = getNodeBySlug('tool', 'gst-itc-overview')
+  const node = getNodeBySlug('tool', 'gst-itc')
   const [outputTax, setOutputTax] = useState(100000)
   const [inputTax, setInputTax] = useState(60000)
   

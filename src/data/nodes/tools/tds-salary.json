@@ -1,11 +1,19 @@
-{
-  "id": "tool-tds-salary-2026-27",
-  "type": "tool",
-  "category": "tds",
-  "persona": ["salaried"],
-  "title": "TDS on Salary Calculator",
-  "slug": "tds-salary-overview",
-  "shortAnswer": "Estimate the monthly TDS deducted by your employer.",
-  "rule": { "section": "192", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tds-salary-calculator" }
+﻿{
+    "id":  "tool-tds-salary-2026-27",
+    "type":  "tool",
+    "category":  "tds",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "TDS on Salary Calculator",
+    "slug":  "tds-salary",
+    "shortAnswer":  "Estimate the monthly TDS deducted by your employer.",
+    "longAnswer": "Section 192 requires the employer to deduct TDS on salary at the average rate of tax applicable to the employee's total income for the year. The employer computes the tax on the estimated annual salary after the employee's declarations for deductions (80C, 80D, HRA, home loan interest, etc.), divides it by the remaining months, and deducts it each month. The TDS on Salary Calculator takes your annual salary and the deductions you claim to estimate the monthly TDS. It applies the old-regime deductions by default; if you are on the new regime, most deductions do not apply and the TDS is higher. The calculator is an estimate—your employer's payroll may treat allowances and perquisites differently. The final tax is computed when you file your return, and any excess TDS is refunded. Confirm your regime choice with your employer at the start of the year, as switching later affects the deduction.",
+    "rule":  {
+                 "section":  "192",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tds-salary-calculator"
+                  }
 }

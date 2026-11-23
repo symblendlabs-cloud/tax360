@@ -6,7 +6,7 @@ import CalculatorShell from '../../core/ui/CalculatorShell'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSRateFinder() {
-  const node = getNodeBySlug('tool', 'tds-rate-overview')
+  const node = getNodeBySlug('tool', 'tds-rate')
   const { fy } = useFY()
   const [selected, setSelected] = useState('')
 

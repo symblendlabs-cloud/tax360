@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec80GGCalculator() {
-  const node = getNodeBySlug('tool', '80gg-overview')
+  const node = getNodeBySlug('tool', '80gg')
   const [salary, setSalary] = useState(1000000) // annual basic
   const [rent, setRent] = useState(240000)
   

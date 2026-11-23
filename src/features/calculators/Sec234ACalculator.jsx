@@ -6,7 +6,7 @@ import ResultCard from '../../core/ui/ResultCard'
 
 // Example for 234A. (Copy and change slug for 234B, 234C)
 export default function Sec234ACalculator() {
-  const node = getNodeBySlug('tool', '234a-overview')
+  const node = getNodeBySlug('tool', '234a')
   const [tax, setTax] = useState(100000)
   const [months, setMonths] = useState(3)
   

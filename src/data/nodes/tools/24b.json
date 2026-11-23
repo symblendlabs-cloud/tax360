@@ -1,11 +1,19 @@
-{
-  "id": "tool-24b-2026-27",
-  "type": "tool",
-  "category": "deductions",
-  "persona": ["salaried"],
-  "title": "24(b) Home Loan Interest",
-  "slug": "24b-overview",
-  "shortAnswer": "Deduction up to 2,00,000 on home loan interest.",
-  "rule": { "section": "24(b)", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "24b-calculator" }
+﻿{
+    "id":  "tool-24b-2026-27",
+    "type":  "tool",
+    "category":  "deductions",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "24(b) Home Loan Interest",
+    "slug":  "24b",
+    "shortAnswer":  "Deduction up to 2,00,000 on home loan interest.",
+    "longAnswer": "Section 24(b) of the Income Tax Act allows a deduction for interest paid on a home loan used to buy, construct, repair, or renovate a house property. For a self-occupied property, the deduction is capped at ₹2,00,000 per financial year under the old tax regime; the new regime does not allow this deduction. For a let-out property, the full interest is deductible, though the loss from house property that can be set off against other income is capped at ₹2,00,000 per year. The deduction applies to the interest component of your EMI, not the principal—principal repayment may qualify separately under Section 80C. Pre-construction interest can be claimed in five equal instalments starting from the year construction is completed. Enter your annual interest paid in the calculator to see the allowable deduction. Confirm your lender's interest certificate before filing.",
+    "rule":  {
+                 "section":  "24(b)",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "24b-calculator"
+                  }
 }

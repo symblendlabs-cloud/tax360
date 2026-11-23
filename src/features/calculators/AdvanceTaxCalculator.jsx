@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function AdvanceTaxCalculator() {
-  const node = getNodeBySlug('tool', 'advance-tax-overview')
+  const node = getNodeBySlug('tool', 'advance-tax')
   const [tax, setTax] = useState(100000)
   
   const q1 = tax * 0.15, q2 = tax * 0.45, q3 = tax * 0.75, q4 = tax

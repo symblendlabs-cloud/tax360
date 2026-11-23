@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSProfessionalCalculator() {
-  const node = getNodeBySlug('tool', 'tds-professional-overview')
+  const node = getNodeBySlug('tool', 'tds-professional')
   const [fees, setFees] = useState(100000)
   
   const threshold = 30000

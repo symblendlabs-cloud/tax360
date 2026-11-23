@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GratuityCalculator() {
-  const node = getNodeBySlug('tool', 'gratuity-overview')
+  const node = getNodeBySlug('tool', 'gratuity')
   const [salary, setSalary] = useState(50000)
   const [years, setYears] = useState(10)
   

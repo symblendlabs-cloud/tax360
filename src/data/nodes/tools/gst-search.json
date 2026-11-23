@@ -1,11 +1,20 @@
-{
-  "id": "tool-gst-search-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["business", "freelancer"],
-  "title": "GST HSN/SAC Search",
-  "slug": "gst-search-overview",
-  "shortAnswer": "Look up GST rate by HSN (goods) or SAC (services) code.",
-  "rule": { "section": "Various", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gst-search-calculator" }
+﻿{
+    "id":  "tool-gst-search-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "GST HSN/SAC Search",
+    "slug":  "gst-search",
+    "shortAnswer":  "Look up GST rate by HSN (goods) or SAC (services) code.",
+    "longAnswer": "The GST HSN/SAC Search helps you find the classification code for goods (HSN) or services (SAC) so you can apply the correct GST rate. HSN codes classify goods and SAC codes classify services; each code maps to a rate (5%, 12%, 18%, 28%, or a special rate) under the GST rate schedule. The search tool looks up the code from your keyword and shows the description and rate. Classification is the taxpayer's responsibility, and a wrong code can lead to a short payment or an excess payment of tax. The tool is a lookup aid, not a legal classification—the rate depends on the exact description, packing, and end use of the goods. For ambiguous items, a customs/central excise classification or an advance ruling may be needed. Confirm the code and rate in the GST rate schedule on gst.gov.in before issuing invoices.",
+    "rule":  {
+                 "section":  "Various",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gst-search-calculator"
+                  }
 }

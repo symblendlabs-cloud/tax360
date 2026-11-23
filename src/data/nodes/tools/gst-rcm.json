@@ -1,11 +1,19 @@
-{
-  "id": "tool-gst-rcm-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["business"],
-  "title": "Reverse Charge Mechanism (RCM)",
-  "slug": "gst-rcm-overview",
-  "shortAnswer": "Calculate GST you must pay directly under RCM.",
-  "rule": { "section": "9(3)", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gst-rcm-calculator" }
+﻿{
+    "id":  "tool-gst-rcm-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "business"
+                ],
+    "title":  "Reverse Charge Mechanism (RCM)",
+    "slug":  "gst-rcm",
+    "shortAnswer":  "Calculate GST you must pay directly under RCM.",
+    "longAnswer": "Under the Reverse Charge Mechanism (RCM), the recipient of goods or services pays GST directly to the government instead of the supplier. It applies to notified categories—such as legal services from advocates, goods transport agency services, and imports—and to purchases from unregistered suppliers in specified cases. The GST RCM Calculator takes the value of the supply and the applicable rate to show the GST the recipient must pay. The recipient also claims the same amount as input tax credit, if eligible, so RCM is often cash-flow neutral for registered businesses but must still be reported in GSTR-3B. The calculator does not determine whether RCM applies to your transaction—that depends on the notification and your supplier's status. Self-invoices are required in some RCM cases. Confirm the applicable notification and the rate on gst.gov.in before paying.",
+    "rule":  {
+                 "section":  "9(3)",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gst-rcm-calculator"
+                  }
 }

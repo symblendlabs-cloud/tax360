@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec80CCDCalculator() {
-  const node = getNodeBySlug('tool', '80ccd-overview')
+  const node = getNodeBySlug('tool', '80ccd')
   const [nps, setNps] = useState(50000)
   
   const claimed = Math.min(nps, 50000) // 80CCD(1B) limit

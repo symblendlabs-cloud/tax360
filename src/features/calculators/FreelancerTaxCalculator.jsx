@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function FreelancerTaxCalculator() {
-  const node = getNodeBySlug('tool', 'freelancer-tax-overview')
+  const node = getNodeBySlug('tool', 'freelancer-tax')
   const [revenue, setRevenue] = useState(1500000)
   const [expenses, setExpenses] = useState(200000)
   

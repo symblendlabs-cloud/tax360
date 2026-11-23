@@ -6,7 +6,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function ProfessionalTaxCalculator() {
-  const node = getNodeBySlug('tool', 'professional-tax-overview')
+  const node = getNodeBySlug('tool', 'professional-tax')
   const [salary, setSalary] = useState(50000)
   const [state, setState] = useState('Maharashtra')
   

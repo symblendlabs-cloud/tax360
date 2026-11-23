@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTLateFeeCalculator() {
-  const node = getNodeBySlug('tool', 'gst-late-fee-overview')
+  const node = getNodeBySlug('tool', 'gst-late-fee')
   const [taxDue, setTaxDue] = useState(50000)
   const [daysLate, setDaysLate] = useState(15)
   

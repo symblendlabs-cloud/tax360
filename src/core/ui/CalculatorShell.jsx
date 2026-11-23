@@ -25,6 +25,16 @@ export default function CalculatorShell({ node, children, results }) {
     ? `${cleanTitle} FY 2026-27`
     : `${cleanTitle} Calculator FY 2026-27`
 
+  // Body text: prefer longAnswer from JSON, fall back to a generated explanation
+  const longAnswer =
+    currentNode.longAnswer?.trim() ||
+    currentNode.explanation?.trim() ||
+    null
+
+  const fallbackExplanation = !longAnswer && currentNode.shortAnswer
+    ? `${cleanTitle} is one of the free calculators on Tax360. ${currentNode.shortAnswer} Enter your figures in the input panel, and the result updates instantly. All calculations run in your browser, so no data is sent to a server. The tool applies the published tax slabs and rules for the selected financial year; always verify the final figure against the official Income Tax Department portal before filing.`
+    : null
+
   // ... existing JSON-LD logic ...
   const siteUrl = window.location.origin
   const currentUrl = siteUrl + window.location.pathname
@@ -91,6 +101,19 @@ export default function CalculatorShell({ node, children, results }) {
             {results}
           </div>
         </div>
+
+        {/* NEW: explanatory body text for AdSense content depth */}
+        {(longAnswer || fallbackExplanation) && (
+          <section className="bg-white rounded-[12px] border border-[#E2E8F0] p-5 space-y-3 text-sm text-slate-700 leading-relaxed">
+            <h2 className="text-lg font-bold text-[#0F2A44]">
+              About this {cleanTitle.toLowerCase().includes('calculator') ? 'calculator' : 'tool'}
+            </h2>
+            <p>{longAnswer || fallbackExplanation}</p>
+            <p>
+              Tax360 keeps every calculation on your device. The figures you enter are never uploaded, logged, or shared. Results are estimates based on the published slabs for the selected financial year and should be cross-checked with the official Income Tax Department portal or a qualified chartered accountant before you file.
+            </p>
+          </section>
+        )}
 
         {currentNode.official && <OfficialLinkBox official={currentNode.official} />}
 

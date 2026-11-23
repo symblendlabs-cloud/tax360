@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function CGCryptoCalculator() {
-  const node = getNodeBySlug('tool', 'cg-crypto-overview')
+  const node = getNodeBySlug('tool', 'cg-crypto')
   const [buyPrice, setBuyPrice] = useState(100000)
   const [sellPrice, setSellPrice] = useState(150000)
   

@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSSalaryCalculator() {
-  const node = getNodeBySlug('tool', 'tds-salary-overview')
+  const node = getNodeBySlug('tool', 'tds-salary')
   const [income, setIncome] = useState(1200000)
   
   // Simplified mock calculation (real one uses average rate of tax)

@@ -1,11 +1,20 @@
-{
-  "id": "tool-fd-tax-2026-27",
-  "type": "tool",
-  "category": "income-tax",
-  "persona": ["salaried", "senior"],
-  "title": "FD Interest Tax Calculator",
-  "slug": "fd-tax-overview",
-  "shortAnswer": "Calculate TDS and net interest on Fixed Deposits.",
-  "rule": { "section": "194A", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "fd-tax-calculator" }
+﻿{
+    "id":  "tool-fd-tax-2026-27",
+    "type":  "tool",
+    "category":  "income-tax",
+    "persona":  [
+                    "salaried",
+                    "senior"
+                ],
+    "title":  "FD Interest Tax Calculator",
+    "slug":  "fd-tax",
+    "shortAnswer":  "Calculate TDS and net interest on Fixed Deposits.",
+    "longAnswer": "Interest on fixed deposits is fully taxable at your slab rate, and banks deduct TDS at 10% under Section 194A if the interest exceeds ₹50,000 in a year (₹1 lakh for senior citizens). The FD Tax Calculator takes your deposit amount, rate, and tenure to estimate the interest earned and the tax on it. Under the old regime, you can reduce the taxable interest only to the extent of the Section 80TTA deduction (₹10,000 on savings interest, not FD) or 80TTB for senior citizens (₹50,000 on all deposit interest). The new regime does not allow 80TTA or 80TTB, so the interest is taxed in full. TDS is not the final tax—if your slab is higher than 10%, you pay the difference when filing; if lower, you claim a refund. The calculator does not model the 80TTA/80TTB limits separately, so subtract them manually. Match the interest with Form 26AS/AIS before filing.",
+    "rule":  {
+                 "section":  "194A",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "fd-tax-calculator"
+                  }
 }

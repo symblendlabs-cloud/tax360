@@ -1,11 +1,20 @@
-{
-  "id": "tool-ppf-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried", "senior"],
-  "title": "PPF Calculator",
-  "slug": "ppf-overview",
-  "shortAnswer": "Estimate your Public Provident Fund corpus.",
-  "rule": { "section": "80C", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "ppf-calculator" }
+﻿{
+    "id":  "tool-ppf-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried",
+                    "senior"
+                ],
+    "title":  "PPF Calculator",
+    "slug":  "ppf",
+    "shortAnswer":  "Estimate your Public Provident Fund corpus.",
+    "longAnswer": "The Public Provident Fund (PPF) is a 15-year government-backed savings scheme with a declared interest rate (currently around 7.1%), compounded annually. The PPF Calculator projects the maturity value from your yearly contribution, the interest rate, and the tenure, and shows the year-wise balance. Contributions qualify for deduction under Section 80C within the ₹1.5 lakh annual limit, and the interest and maturity amount are fully exempt—PPF is an EEE (exempt-exempt-exempt) instrument. The calculator assumes a constant rate, but the rate is reset each quarter by the government, so the actual maturity will differ. Partial withdrawals are allowed from year 7, and the account can be extended in blocks of 5 years. The result is an estimate—confirm the current rate on the India Post or NSI portal. PPF is not available under the new tax regime for the 80C deduction, but the maturity remains tax-free.",
+    "rule":  {
+                 "section":  "80C",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "ppf-calculator"
+                  }
 }

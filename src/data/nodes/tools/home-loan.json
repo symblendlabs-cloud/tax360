@@ -1,11 +1,19 @@
-{
-  "id": "tool-home-loan-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried"],
-  "title": "Home Loan EMI",
-  "slug": "home-loan-overview",
-  "shortAnswer": "Calculate monthly EMI for your home loan.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "home-loan-calculator" }
+﻿{
+    "id":  "tool-home-loan-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "Home Loan EMI",
+    "slug":  "home-loan",
+    "shortAnswer":  "Calculate monthly EMI for your home loan.",
+    "longAnswer": "The Home Loan EMI Calculator computes the monthly instalment from the loan amount, annual interest rate, and tenure, using the reducing-balance EMI formula. It shows the EMI, the total interest, and the total repayment over the tenure, and the amortisation splits each instalment into interest and principal. On the tax side, the interest component is deductible under Section 24(b) up to ₹2,00,000 for a self-occupied house under the old regime, and the principal repayment qualifies under Section 80C within the ₹1.5 lakh limit. For a first-time buyer, Section 80EEA (now closed for new loans) and 80EE gave additional interest deductions. The new regime does not allow 24(b) or 80C. The calculator is a repayment tool and does not compute the tax deduction—use the 24(b) calculator for that. Confirm the rate, processing fee, and prepayment terms with your lender.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "home-loan-calculator"
+                  }
 }

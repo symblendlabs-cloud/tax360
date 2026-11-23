@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function YouTubeTaxCalculator() {
-  const node = getNodeBySlug('tool', 'youtube-tax-overview')
+  const node = getNodeBySlug('tool', 'youtube-tax')
   
   const [adsense, setAdsense] = useState(600000)
   const [sponsorships, setSponsorships] = useState(400000)

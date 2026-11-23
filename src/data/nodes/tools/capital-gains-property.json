@@ -1,11 +1,21 @@
-{
-  "id": "tool-cg-property-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business", "nri"],
-  "title": "Capital Gains on Property",
-  "slug": "cg-property-overview",
-  "shortAnswer": "Calculate tax on sale of land or building.",
-  "rule": { "section": "54, 112", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "cg-property-calculator" }
+﻿{
+    "id":  "tool-cg-property-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business",
+                    "nri"
+                ],
+    "title":  "Capital Gains on Property",
+    "slug":  "capital-gains-property",
+    "shortAnswer":  "Calculate tax on sale of land or building.",
+    "longAnswer": "Capital gains on the sale of immovable property depend on the holding period. Under the current rules, property held for more than 24 months is a long-term asset; 24 months or less is short-term. Long-term gains are taxed at 12.5% without indexation (the indexation benefit was withdrawn for transfers on or after 23 July 2024), while short-term gains are added to your income and taxed at slab rates. Certain exemptions survive—Section 54 (reinvest in a residential house), Section 54EC (bonds), and Section 54F (reinvest in a house from other assets). The calculator takes your sale price, cost of acquisition, improvement cost, and holding period to show whether the gain is long-term or short-term and the estimated tax. Stamp duty and transfer expenses are added to the cost. TDS under Section 194IA (1% on sales above ₹50 lakh) is deducted by the buyer and can be claimed as a credit. Confirm the exact treatment with a chartered accountant.",
+    "rule":  {
+                 "section":  "54, 112",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "cg-property-calculator"
+                  }
 }

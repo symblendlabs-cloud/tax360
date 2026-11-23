@@ -1,11 +1,19 @@
-{
-  "id": "tool-epf-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried"],
-  "title": "EPF Calculator",
-  "slug": "epf-overview",
-  "shortAnswer": "Estimate your Employee Provident Fund corpus.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "epf-calculator" }
+﻿{
+    "id":  "tool-epf-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "EPF Calculator",
+    "slug":  "epf",
+    "shortAnswer":  "Estimate your Employee Provident Fund corpus.",
+    "longAnswer": "The EPF Calculator estimates the retirement corpus from your Employees' Provident Fund contributions. Each month, you contribute 12% of basic plus dearness allowance, and your employer contributes 12%, of which 8.33% goes to the Employees' Pension Scheme and 3.67% to the EPF. The calculator projects the balance to retirement using your current balance, monthly contribution, expected salary growth, and the EPF interest rate (declared annually, currently around 8.25%). EPF interest is tax-free on accrual, and the maturity amount is tax-free if you have five years of continuous service. Contributions qualify for deduction under Section 80C, within the ₹1.5 lakh limit. The result is an estimate—the actual rate is declared each year and the projection assumes a constant rate. Withdrawals before five years are taxable. Confirm your passbook balance on the EPFO portal before relying on the projection.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "epf-calculator"
+                  }
 }

@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function IndexationCalculator() {
-  const node = getNodeBySlug('tool', 'indexation-overview')
+  const node = getNodeBySlug('tool', 'indexation')
   const [buyPrice, setBuyPrice] = useState(3000000)
   const [cpiBuy, setCpiBuy] = useState(280)
   const [cpiSell, setCpiSell] = useState(360)

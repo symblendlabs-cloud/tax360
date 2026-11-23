@@ -1,11 +1,20 @@
-{
-  "id": "tool-cg-stocks-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business"],
-  "title": "Capital Gains on Stocks",
-  "slug": "cg-stocks-overview",
-  "shortAnswer": "STCG and LTCG on equity shares and mutual funds.",
-  "rule": { "section": "111A, 112A", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "cg-stocks-calculator" }
+﻿{
+    "id":  "tool-cg-stocks-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Capital Gains on Stocks",
+    "slug":  "capital-gains-stocks",
+    "shortAnswer":  "STCG and LTCG on equity shares and mutual funds.",
+    "longAnswer": "Gains on listed equity shares and equity mutual funds are taxed under Section 112A (long-term) and Section 111A (short-term). A holding period of more than 12 months makes the gain long-term, taxed at 12.5% on gains above the ₹1.25 lakh annual exemption. Gains of 12 months or less are short-term, taxed at 20% (raised from 15% for transfers on or after 23 July 2024). The 12.5% and 20% rates apply to transfers after that date; check the rate for your sale date. Securities Transaction Tax (STT) is paid on the transaction and is not deductible from the gain. The calculator takes your purchase price, sale price, and holding period to classify the gain and estimate the tax. It does not net off losses across scrips—capital losses can be set off against capital gains, and short-term losses against both short- and long-term gains. Report in Schedule 112A/111A. Confirm the rate applicable to your sale date on the e-filing portal.",
+    "rule":  {
+                 "section":  "111A, 112A",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "cg-stocks-calculator"
+                  }
 }

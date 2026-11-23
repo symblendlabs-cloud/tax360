@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function CarLoanCalculator() {
-  const node = getNodeBySlug('tool', 'personal-loan-overview') // Change to home-loan, personal-loan
+  const node = getNodeBySlug('tool', 'personal-loan') // Change to home-loan, personal-loan
   const [principal, setPrincipal] = useState(1000000)
   const [rate, setRate] = useState(9.5)
   const [years, setYears] = useState(5)

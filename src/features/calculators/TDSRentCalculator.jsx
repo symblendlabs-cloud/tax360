@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSRentCalculator() {
-  const node = getNodeBySlug('tool', 'tds-rent-overview')
+  const node = getNodeBySlug('tool', 'tds-rent')
   const [rent, setRent] = useState(300000) // annual
   
   const threshold = 240000

@@ -1,11 +1,19 @@
-{
-  "id": "tool-gst-freelancer-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["freelancer"],
-  "title": "GST for Freelancers",
-  "slug": "gst-freelancer-overview",
-  "shortAnswer": "Check if you need GST registration based on your revenue.",
-  "rule": { "section": "22", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gst-freelancer-calculator" }
+﻿{
+    "id":  "tool-gst-freelancer-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "freelancer"
+                ],
+    "title":  "GST for Freelancers",
+    "slug":  "gst-freelancer",
+    "shortAnswer":  "Check if you need GST registration based on your revenue.",
+    "longAnswer": "Freelancers and consultants providing services across state lines must register for GST once turnover crosses ₹20 lakh (₹10 lakh in special-category states). The GST for Freelancers Calculator computes the GST on your invoice at the applicable rate (usually 18% for services), and separates it into CGST and SGST for intra-state clients or IGST for inter-state clients. If you are registered, you collect GST and remit it after claiming input tax credit on business purchases. The calculator does not decide whether you must register—it computes the tax once you know the rate. It also does not apply the composition scheme or the 44ADA presumptive income tax, which are separate. Under GST, the place of supply determines whether the tax is CGST+SGST or IGST, and for exports the supply is zero-rated. Confirm your registration threshold and the correct SAC code on gst.gov.in before invoicing.",
+    "rule":  {
+                 "section":  "22",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gst-freelancer-calculator"
+                  }
 }

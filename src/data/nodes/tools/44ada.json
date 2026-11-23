@@ -1,11 +1,19 @@
-{
-  "id": "tool-44ada-2026-27",
-  "type": "tool",
-  "category": "business",
-  "persona": ["freelancer"],
-  "title": "Section 44ADA Calculator",
-  "slug": "44ada-overview",
-  "shortAnswer": "Presumptive taxation for professionals (revenue up to 75L).",
-  "rule": { "section": "44ADA", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "44ada-calculator" }
+﻿{
+    "id":  "tool-44ada-2026-27",
+    "type":  "tool",
+    "category":  "business",
+    "persona":  [
+                    "freelancer"
+                ],
+    "title":  "Section 44ADA Calculator",
+    "slug":  "44ada",
+    "shortAnswer":  "Presumptive taxation for professionals (revenue up to 75L).",
+    "longAnswer": "Section 44AD is the presumptive taxation scheme for eligible small businesses with turnover up to ₹3 crore (₹2 crore under the general limit, raised to ₹3 crore if cash receipts are 5% or less). Under the scheme, you declare 8% of turnover as presumptive profit (6% for receipts through banking channels or digital modes) and pay tax on that income at your slab rate. You are exempt from maintaining detailed books of account and from tax audit under Section 44AB. The scheme is optional, but if you opt out after opting in, you are barred from re-entering it for five years and may lose the audit exemption. The calculator takes your turnover, cash vs digital split, and expenses to show presumptive income and estimated tax. It does not cover professionals—use 44ADA for them. Confirm eligibility on the Income Tax Department portal.",
+    "rule":  {
+                 "section":  "44ADA",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "44ada-calculator"
+                  }
 }

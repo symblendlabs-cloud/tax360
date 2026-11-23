@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function LateITRCalculator() {
-  const node = getNodeBySlug('tool', 'late-itr-overview')
+  const node = getNodeBySlug('tool', 'late-itr')
   const [income, setIncome] = useState(800000)
   const [delayMonths, setDelayMonths] = useState(2)
   

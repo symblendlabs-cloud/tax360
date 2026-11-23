@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSPropertyCalculator() {
-  const node = getNodeBySlug('tool', 'tds-property-overview')
+  const node = getNodeBySlug('tool', 'tds-property')
   const [propertyValue, setPropertyValue] = useState(8000000)
   
   const threshold = 5000000

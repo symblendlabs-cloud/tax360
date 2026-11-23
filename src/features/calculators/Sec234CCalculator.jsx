@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec234CCalculator() {
-  const node = getNodeBySlug('tool', '234c-overview')
+  const node = getNodeBySlug('tool', '234c')
   const [tax, setTax] = useState(100000)
   const [shortfall, setShortfall] = useState(15000) // e.g. missed the 15% Q1 deadline
   const [months, setMonths] = useState(3)

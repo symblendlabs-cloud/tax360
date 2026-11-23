@@ -1,11 +1,20 @@
-{
-  "id": "tool-indexation-2026-27",
-  "type": "tool",
-  "category": "capital-gains",
-  "persona": ["salaried", "business"],
-  "title": "Indexation Benefit Calculator",
-  "slug": "indexation-overview",
-  "shortAnswer": "Adjust the purchase price of property for inflation to reduce tax.",
-  "rule": { "section": "48", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "indexation-calculator" }
+﻿{
+    "id":  "tool-indexation-2026-27",
+    "type":  "tool",
+    "category":  "capital-gains",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Indexation Benefit Calculator",
+    "slug":  "indexation",
+    "shortAnswer":  "Adjust the purchase price of property for inflation to reduce tax.",
+    "longAnswer": "Indexation adjusts the cost of an asset for inflation, reducing the capital gain and therefore the tax. It uses the Cost Inflation Index (CII) published by the CBDT each year: indexed cost = cost × (CII of sale year / CII of purchase year). Indexation was available on long-term capital gains from property, debt funds, and gold, but the Finance Act 2024 withdrew it for transfers on or after 23 July 2024, replacing it with a flat 12.5% rate without indexation for property and gold. For debt funds and other assets where indexation still applies, the calculator takes the purchase cost, purchase year, and sale year to compute the indexed cost and the resulting gain. It uses the published CII values—if a year is missing, the result will be off. Confirm whether indexation applies to your asset and sale date, as the 2024 change is asset-specific.",
+    "rule":  {
+                 "section":  "48",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "indexation-calculator"
+                  }
 }

@@ -1,11 +1,20 @@
-{
-  "id": "tool-tds-rate-finder-2026-27",
-  "type": "tool",
-  "category": "tds",
-  "persona": ["business", "freelancer"],
-  "title": "TDS Rate Finder",
-  "slug": "tds-rate-overview",
-  "shortAnswer": "Quickly find the TDS section and rate for common payments.",
-  "rule": { "section": "Various", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tds-rate-finder" }
+﻿{
+    "id":  "tool-tds-rate-finder-2026-27",
+    "type":  "tool",
+    "category":  "tds",
+    "persona":  [
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "TDS Rate Finder",
+    "slug":  "tds-rate-finder",
+    "shortAnswer":  "Quickly find the TDS section and rate for common payments.",
+    "longAnswer": "The TDS Rate Finder is a lookup tool for the rate and threshold applicable to common payments under the Income Tax Act. It covers salary (Section 192), interest on securities (193), dividends (194), interest other than securities (194A), winnings from lottery (194B), winnings from horse races (194BB), contractor payments (194C), insurance commission (194D), payments to non-residents (195), dividends to non-residents (196A), interest to non-residents (196B), royalties (196C), long-term capital gains (196B/196C), and others. Each section has its own rate, threshold, and payee-type conditions, so the finder is an aid, not a substitute for the section text. The rate can also change with the Finance Act or with notifications, and a higher rate applies if the payee has not filed returns (Section 206AB). Confirm the current rate and threshold for your specific payment on the e-filing portal before deducting.",
+    "rule":  {
+                 "section":  "Various",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tds-rate-finder"
+                  }
 }

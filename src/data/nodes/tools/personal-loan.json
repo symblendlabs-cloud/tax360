@@ -1,11 +1,19 @@
-{
-  "id": "tool-personal-loan-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried"],
-  "title": "Personal Loan EMI",
-  "slug": "personal-loan-overview",
-  "shortAnswer": "Calculate monthly EMI for a personal loan.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "personal-loan-calculator" }
+﻿{
+    "id":  "tool-personal-loan-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "Personal Loan EMI",
+    "slug":  "personal-loan",
+    "shortAnswer":  "Calculate monthly EMI for a personal loan.",
+    "longAnswer": "The Personal Loan EMI Calculator computes the monthly instalment from the principal, annual interest rate, and tenure, using the reducing-balance EMI formula. It shows the EMI, total interest, and total repayment, and the amortisation splits each instalment into interest and principal. Personal loan interest is not deductible for a salaried individual; it is deductible only if the loan is used for a business purpose and the interest is a business expense, or in limited cases where the loan is used to buy a house (then 24(b) may apply). The calculator is a repayment tool and does not compute any tax deduction. Personal loans usually carry a higher rate than secured loans and may have a processing fee and prepayment penalty—include those in your comparison. Enter the amount, rate, and tenure to see the EMI. Confirm the rate and charges with your lender before signing.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "personal-loan-calculator"
+                  }
 }

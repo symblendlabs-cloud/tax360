@@ -1,11 +1,19 @@
-{
-  "id": "tool-80tta-2026-27",
-  "type": "tool",
-  "category": "deductions",
-  "persona": ["salaried"],
-  "title": "80TTA Savings Interest",
-  "slug": "80tta-overview",
-  "shortAnswer": "Deduction up to 10,000 on savings bank interest.",
-  "rule": { "section": "80TTA", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "80tta-calculator" }
+﻿{
+    "id":  "tool-80tta-2026-27",
+    "type":  "tool",
+    "category":  "deductions",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "80TTA Savings Interest",
+    "slug":  "80tta",
+    "shortAnswer":  "Deduction up to 10,000 on savings bank interest.",
+    "longAnswer": "Section 80TTA allows a deduction of up to ₹10,000 on interest earned from savings bank accounts. It is available to individuals and Hindu Undivided Families below 60 years of age, and only under the old tax regime. Interest from fixed deposits, recurring deposits, and corporate bonds does not qualify—those are covered separately, and senior citizens can claim up to ₹50,000 under Section 80TTB instead. If you have savings accounts across multiple banks, the interest is aggregated and the ₹10,000 cap applies to the total, not per account. The calculator takes your total savings account interest to show the allowable deduction. Interest is reported in your Form 26AS/AIS, so match the figure before claiming. The new regime does not allow 80TTA. Confirm the interest certificate from your bank.",
+    "rule":  {
+                 "section":  "80TTA",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "80tta-calculator"
+                  }
 }

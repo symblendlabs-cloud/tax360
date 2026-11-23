@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec80DCalculator() {
-  const node = getNodeBySlug('tool', '80d-overview')
+  const node = getNodeBySlug('tool', '80d')
   const [selfPremium, setSelfPremium] = useState(25000)
   const [parentsPremium, setParentsPremium] = useState(50000)
   const [parentsSenior, setParentsSenior] = useState(true)

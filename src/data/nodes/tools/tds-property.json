@@ -1,11 +1,20 @@
-{
-  "id": "tool-tds-property-2026-27",
-  "type": "tool",
-  "category": "tds",
-  "persona": ["salaried", "business"],
-  "title": "TDS on Property (194IA)",
-  "slug": "tds-property-overview",
-  "shortAnswer": "1% TDS to deduct when buying property over 50L.",
-  "rule": { "section": "194IA", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tds-property-calculator" }
+﻿{
+    "id":  "tool-tds-property-2026-27",
+    "type":  "tool",
+    "category":  "tds",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "TDS on Property (194IA)",
+    "slug":  "tds-property",
+    "shortAnswer":  "1% TDS to deduct when buying property over 50L.",
+    "longAnswer": "Section 194IA requires the buyer of immovable property (other than agricultural land) to deduct TDS at 1% on the sale consideration if the amount is ₹50 lakh or more. The TDS on Property Calculator takes the sale value to show the TDS the buyer must deduct and the net payable to the seller. The seller claims the TDS as a credit in their return. If the property is sold by a non-resident, Section 195 applies instead, with a different rate and process. The buyer must obtain the seller's PAN and deposit the TDS using Form 26QB within 30 days of the month of deduction. If the seller does not have a PAN, the rate is higher. The calculator does not decide whether 194IA or 195 applies—that depends on the seller's residency. Confirm the form and the deadline on the e-filing portal, as late deposit attracts interest and a fee.",
+    "rule":  {
+                 "section":  "194IA",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tds-property-calculator"
+                  }
 }

@@ -1,11 +1,20 @@
-{
-  "id": "tool-car-loan-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried", "business"],
-  "title": "Car Loan EMI",
-  "slug": "car-loan-overview",
-  "shortAnswer": "Calculate monthly EMI for your car loan.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "car-loan-calculator" }
+﻿{
+    "id":  "tool-car-loan-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Car Loan EMI",
+    "slug":  "car-loan",
+    "shortAnswer":  "Calculate monthly EMI for your car loan.",
+    "longAnswer": "The Car Loan EMI Calculator computes the monthly instalment on a car loan from the principal, annual interest rate, and tenure. It uses the standard reducing-balance EMI formula: EMI = P × r × (1+r)^n / ((1+r)^n − 1), where r is the monthly interest rate and n is the number of months. The result shows the EMI, the total interest paid over the tenure, and the total repayment. On the tax side, interest on a car loan is generally not deductible for a salaried individual—it is deductible only if the car is used for business and the loan is in the business's name. Depreciation on the vehicle may be claimed by a business instead. The calculator is a repayment tool, not a tax tool, so it does not compute any deduction. Enter the loan amount, rate, and tenure to see the EMI; use the amortisation to see how much of each instalment is interest versus principal. Confirm the rate and processing fee with your lender.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "car-loan-calculator"
+                  }
 }

@@ -1,11 +1,20 @@
-{
-  "id": "tool-tax-planner-2026-27",
-  "type": "tool",
-  "category": "planning",
-  "persona": ["salaried", "business"],
-  "title": "Tax Saving Planner",
-  "slug": "tax-planner-overview",
-  "shortAnswer": "Find out how much more you need to invest under 80C to save tax.",
-  "rule": { "section": "80C", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tax-planner-calculator" }
+﻿{
+    "id":  "tool-tax-planner-2026-27",
+    "type":  "tool",
+    "category":  "planning",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Tax Saving Planner",
+    "slug":  "tax-planner",
+    "shortAnswer":  "Find out how much more you need to invest under 80C to save tax.",
+    "longAnswer": "The Tax Saving Planner estimates how much you can reduce your taxable income by using the common deductions and exemptions available under the old tax regime. It covers Section 80C (₹1.5 lakh across EPF, PPF, ELSS, life insurance, principal repayment, and tuition fees), 80CCD(1B) (₹50,000 for NPS), 80D (health insurance), 24(b) (home loan interest up to ₹2 lakh), 80TTA (savings interest up to ₹10,000), 80G (donations), and HRA. It shows the total deduction and the tax saved at your slab. The new regime allows only the standard deduction and the employer NPS contribution, so most of these do not apply there. The planner is an estimate—the actual benefit depends on your income, the regime you choose, and the documentary proof for each deduction. It does not recommend investments. Confirm your eligibility for each section and keep the proofs before filing.",
+    "rule":  {
+                 "section":  "80C",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tax-planner-calculator"
+                  }
 }

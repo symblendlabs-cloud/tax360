@@ -1,11 +1,19 @@
-{
-  "id": "tool-80ccd-2026-27",
-  "type": "tool",
-  "category": "deductions",
-  "persona": ["salaried"],
-  "title": "NPS (80CCD)",
-  "slug": "80ccd-overview",
-  "shortAnswer": "Additional NPS deduction up to 50,000 under 80CCD(1B).",
-  "rule": { "section": "80CCD", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "80ccd-calculator" }
+﻿{
+    "id":  "tool-80ccd-2026-27",
+    "type":  "tool",
+    "category":  "deductions",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "NPS (80CCD)",
+    "slug":  "80ccd",
+    "shortAnswer":  "Additional NPS deduction up to 50,000 under 80CCD(1B).",
+    "longAnswer": "Section 80CCD governs deductions for contributions to the National Pension System (NPS). Three sub-sections apply: 80CCD(1) covers your own contribution, capped at 10% of salary (20% for self-employed) within the overall ₹1.5 lakh limit of Section 80C; 80CCD(1B) allows an additional ₹50,000 deduction for your own contribution, over and above the 80C limit; and 80CCD(2) covers the employer's contribution, up to 10% of basic plus DA (14% under the new regime). The 80CCD(1B) extra ₹50,000 is available only under the old regime—the new regime does not allow it. The calculator takes your salary, your contribution, and your employer's contribution to show the allowable deduction under each sub-section. NPS withdrawals are partly taxable, so the deduction is not the only consideration. Confirm your contribution certificate from the NPS trust before filing.",
+    "rule":  {
+                 "section":  "80CCD",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "80ccd-calculator"
+                  }
 }

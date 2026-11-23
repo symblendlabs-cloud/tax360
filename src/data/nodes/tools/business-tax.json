@@ -1,11 +1,19 @@
-{
-  "id": "tool-business-tax-2026-27",
-  "type": "tool",
-  "category": "business",
-  "persona": ["business"],
-  "title": "Business Tax Calculator",
-  "slug": "business-tax-overview",
-  "shortAnswer": "Calculate corporate tax for domestic companies.",
-  "rule": { "section": "115BAA", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "business-tax-calculator" }
+﻿{
+    "id":  "tool-business-tax-2026-27",
+    "type":  "tool",
+    "category":  "business",
+    "persona":  [
+                    "business"
+                ],
+    "title":  "Business Tax Calculator",
+    "slug":  "business-tax",
+    "shortAnswer":  "Calculate corporate tax for domestic companies.",
+    "longAnswer": "The Business Tax Calculator estimates income tax for a business or self-employed individual by applying the slab rates to net profit after allowable expenses. For a sole proprietor or a partnership firm, the profit is added to the owner's total income and taxed at individual slab rates; for a company, the flat corporate rate applies (22% under Section 115BAA, or 25% for turnover up to ₹400 crore, plus surcharge and cess). The calculator does not compute GST, TDS, or advance tax—it focuses on the income-tax liability on profit. Deductions such as depreciation, salary to partners, and business expenses reduce the taxable profit before the slab is applied. The result is an estimate based on the figures you enter; the final liability depends on your books and any disallowances. Confirm the applicable rate and regime with a chartered accountant before filing.",
+    "rule":  {
+                 "section":  "115BAA",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "business-tax-calculator"
+                  }
 }

@@ -1,11 +1,19 @@
-{
-  "id": "tool-lumpsum-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried"],
-  "title": "Lumpsum Calculator",
-  "slug": "lumpsum-overview",
-  "shortAnswer": "Estimate returns from a one-time investment.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "lumpsum-calculator" }
+﻿{
+    "id":  "tool-lumpsum-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried"
+                ],
+    "title":  "Lumpsum Calculator",
+    "slug":  "lumpsum",
+    "shortAnswer":  "Estimate returns from a one-time investment.",
+    "longAnswer": "The Lumpsum Calculator estimates the future value of a one-time investment. It uses the compound-interest formula: future value = principal × (1 + r)^n, where r is the annual return and n is the number of years. The result shows the maturity value and the gain over the principal. On the tax side, the treatment depends on the instrument: equity mutual funds held over 12 months are long-term, taxed at 12.5% above ₹1.25 lakh (Section 112A); debt funds are taxed at slab; and fixed deposits are taxed at slab on accrual. The calculator does not apply any tax—it shows the pre-tax value, so subtract the applicable tax manually. The return is assumed constant, which is not how markets behave, so treat the projection as illustrative. For goal planning, compare with the SIP calculator. Confirm the tax treatment of your specific instrument before investing.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "lumpsum-calculator"
+                  }
 }

@@ -1,11 +1,20 @@
-{
-  "id": "tool-sip-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried", "freelancer"],
-  "title": "SIP Calculator",
-  "slug": "sip-overview",
-  "shortAnswer": "Estimate returns from a Systematic Investment Plan.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "sip-calculator" }
+﻿{
+    "id":  "tool-sip-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried",
+                    "freelancer"
+                ],
+    "title":  "SIP Calculator",
+    "slug":  "sip",
+    "shortAnswer":  "Estimate returns from a Systematic Investment Plan.",
+    "longAnswer": "The SIP Calculator estimates the future value of a Systematic Investment Plan, where you invest a fixed amount every month into a mutual fund. It uses the future-value-of-annuity formula: FV = P × ((1 + r)^n − 1) / r × (1 + r), where P is the monthly investment, r the monthly return, and n the number of months. The result shows the invested amount, the estimated gain, and the maturity value. On the tax side, equity SIPs held over 12 months are long-term, taxed at 12.5% above ₹1.25 lakh (Section 112A); units held 12 months or less are short-term, taxed at 20%. Debt SIPs are taxed at slab. The calculator does not apply tax—subtract it manually based on the fund type. The return is assumed constant, which markets do not deliver, so the projection is illustrative. It also does not account for expense ratios or exit loads. Confirm the tax treatment of your fund category before investing.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "sip-calculator"
+                  }
 }

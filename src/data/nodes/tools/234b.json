@@ -1,11 +1,19 @@
-{
-  "id": "tool-234b-2026-27",
-  "type": "tool",
-  "category": "penalty",
-  "persona": ["business"],
-  "title": "Interest 234B",
-  "slug": "234b-overview",
-  "shortAnswer": "Interest for non-payment of advance tax.",
-  "rule": { "section": "234B", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "234b-calculator" }
+﻿{
+    "id":  "tool-234b-2026-27",
+    "type":  "tool",
+    "category":  "penalty",
+    "persona":  [
+                    "business"
+                ],
+    "title":  "Interest 234B",
+    "slug":  "234b",
+    "shortAnswer":  "Interest for non-payment of advance tax.",
+    "longAnswer": "Section 234B interest applies when you have not paid at least 90% of your total advance tax liability before the end of the financial year. Interest is charged at 1% per month or part of a month on the shortfall, from 1 April of the assessment year until the date you pay the tax or file your return. Unlike 234A, this section is about under-payment of advance tax rather than late filing, so a taxpayer who files on time but paid too little advance tax can still attract 234B. The calculator uses your total tax liability and the advance tax you actually paid to estimate the shortfall and the interest. The result is an estimate—the Income Tax Department computes the final figure in the intimation under Section 143(1). Cross-check with the tax computation in the e-filing portal before paying.",
+    "rule":  {
+                 "section":  "234B",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "234b-calculator"
+                  }
 }

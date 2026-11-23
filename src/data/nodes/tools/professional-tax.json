@@ -1,11 +1,20 @@
-{
-  "id": "tool-pt-2026-27",
-  "type": "tool",
-  "category": "state-tax",
-  "persona": ["salaried", "business"],
-  "title": "Professional Tax Calculator",
-  "slug": "professional-tax-overview",
-  "shortAnswer": "Check your monthly professional tax based on your state.",
-  "rule": { "section": "276", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "professional-tax-calculator" }
+﻿{
+    "id":  "tool-pt-2026-27",
+    "type":  "tool",
+    "category":  "state-tax",
+    "persona":  [
+                    "salaried",
+                    "business"
+                ],
+    "title":  "Professional Tax Calculator",
+    "slug":  "professional-tax",
+    "shortAnswer":  "Check your monthly professional tax based on your state.",
+    "longAnswer": "Professional tax is a state-level tax on professions, trades, and employment, levied under Article 276 of the Constitution. It is not an income tax—it is deducted from salary by the employer or paid by the self-employed, and the maximum any state can levy is ₹2,500 per year. The rate depends on your state and your monthly salary: Karnataka, Maharashtra, West Bengal, and Tamil Nadu each have their own slabs, and some states do not levy it at all. The Professional Tax Calculator takes your monthly salary and state to show the monthly deduction and the annual total. The amount is deductible from your income under Section 16(iii) while computing salary income, and it is available under both the old and new regimes. The calculator does not compute income tax—use the income-tax calculator for that. Confirm your state's current slab on the state commercial-tax portal.",
+    "rule":  {
+                 "section":  "276",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "professional-tax-calculator"
+                  }
 }

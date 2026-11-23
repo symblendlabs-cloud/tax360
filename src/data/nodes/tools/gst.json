@@ -1,40 +1,62 @@
-{
-  "id": "tool-gst-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["business", "freelancer"],
-  "title": "GST Calculator",
-  "question": "",
-  "slug": "gst-overview",
-  "shortAnswer": "Add or remove GST at 5%, 12%, 18%, or 28% on any amount.",
-  "fullAnswer": "Simple GST calculator that adds or removes GST at any standard rate. Works for inclusive and exclusive pricing. Useful for invoices, quotations, and freelancer billing.",
-  "example": {
-    "inputs": { "amount": 10000, "rate": 18, "mode": "add" },
-    "calculation": "GST = 10,000 × 18% = 1,800",
-    "result": "Total = ₹11,800"
-  },
-  "rule": {
-    "section": "GST Act 2017",
-    "limit": "",
-    "rate": "5 / 12 / 18 / 28",
-    "fy": "2026-27",
-    "lastUpdated": "2026-04-01"
-  },
-  "official": {
-    "site": "GST Council",
-    "directLink": "https://www.gst.gov.in/",
-    "pdfLink": "",
-    "steps": ["Use for invoice calculation", "Cross-verify on gst.gov.in"],
-    "need": "When raising GST invoices or checking inclusive pricing"
-  },
-  "discovery": {
-    "tags": ["gst", "calculator", "invoice", "freelancer"],
-    "aliases": ["gst calculator", "gst inclusive", "gst exclusive"],
-    "relatedIds": [],
-    "calculatorSlug": "gst-calculator"
-  },
-  "seo": {
-    "metaTitle": "GST Calculator — Tax360",
-    "metaDescription": "Add or remove GST at 5%, 12%, 18%, 28% on any amount. Free, local-only GST calculator."
-  }
+﻿{
+    "id":  "tool-gst-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "GST Calculator",
+    "question":  "",
+    "slug":  "gst",
+    "shortAnswer":  "Add or remove GST at 5%, 12%, 18%, or 28% on any amount.",
+    "fullAnswer":  "Simple GST calculator that adds or removes GST at any standard rate. Works for inclusive and exclusive pricing. Useful for invoices, quotations, and freelancer billing.",
+    "longAnswer": "The GST Calculator on Tax360 helps you add or remove Goods and Services Tax at the standard rates of 5%, 12%, 18%, and 28%, plus the special 0.25% and 3% rates used for specific goods. Choose 'add' mode to compute GST on a base amount, or 'remove' mode to reverse-calculate the base price from a GST-inclusive total. The arithmetic follows the invoice method: GST = base × rate, and inclusive price = base + GST. For intra-state supplies the result splits into CGST and SGST; for inter-state supplies it is shown as IGST. Because the calculation runs in your browser, no invoice or customer data is stored. GST rates and cess are revised by GST Council notifications, so confirm the current rate for your HSN/SAC code on gst.gov.in before issuing an invoice.",
+    "example":  {
+                    "inputs":  {
+                                   "amount":  10000,
+                                   "rate":  18,
+                                   "mode":  "add"
+                               },
+                    "calculation":  "GST = 10,000 Ã— 18% = 1,800",
+                    "result":  "Total = â‚¹11,800"
+                },
+    "rule":  {
+                 "section":  "GST Act 2017",
+                 "limit":  "",
+                 "rate":  "5 / 12 / 18 / 28",
+                 "fy":  "2026-27",
+                 "lastUpdated":  "2026-04-01"
+             },
+    "official":  {
+                     "site":  "GST Council",
+                     "directLink":  "https://www.gst.gov.in/",
+                     "pdfLink":  "",
+                     "steps":  [
+                                   "Use for invoice calculation",
+                                   "Cross-verify on gst.gov.in"
+                               ],
+                     "need":  "When raising GST invoices or checking inclusive pricing"
+                 },
+    "discovery":  {
+                      "tags":  [
+                                   "gst",
+                                   "calculator",
+                                   "invoice",
+                                   "freelancer"
+                               ],
+                      "aliases":  [
+                                      "gst calculator",
+                                      "gst inclusive",
+                                      "gst exclusive"
+                                  ],
+                      "relatedIds":  [
+
+                                     ],
+                      "calculatorSlug":  "gst-calculator"
+                  },
+    "seo":  {
+                "metaTitle":  "GST Calculator â€” Tax360",
+                "metaDescription":  "Add or remove GST at 5%, 12%, 18%, 28% on any amount. Free, local-only GST calculator."
+            }
 }

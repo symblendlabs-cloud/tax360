@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec44ADACalculator() {
-  const node = getNodeBySlug('tool', '44ada-overview')
+  const node = getNodeBySlug('tool', '44ada')
   const [revenue, setRevenue] = useState(4000000)
   
   const profit = revenue * 0.5

@@ -1,11 +1,21 @@
-{
-  "id": "tool-late-itr-2026-27",
-  "type": "tool",
-  "category": "penalty",
-  "persona": ["salaried", "business", "freelancer"],
-  "title": "Late ITR Penalty Calculator",
-  "slug": "late-itr-overview",
-  "shortAnswer": "Calculate penalty and interest for filing your ITR late.",
-  "rule": { "section": "234F", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "late-itr-calculator" }
+﻿{
+    "id":  "tool-late-itr-2026-27",
+    "type":  "tool",
+    "category":  "penalty",
+    "persona":  [
+                    "salaried",
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "Late ITR Penalty Calculator",
+    "slug":  "late-itr",
+    "shortAnswer":  "Calculate penalty and interest for filing your ITR late.",
+    "longAnswer": "Filing your income tax return after the due date attracts a late fee under Section 234F and interest under Sections 234A, 234B, and 234C. The late fee is ₹5,000 if your total income exceeds ₹5 lakh, and ₹1,000 if it is below ₹5 lakh, provided you file before 31 December of the assessment year. After 31 December, you can file only an updated return (ITR-U) with additional tax. Interest under 234A is 1% per month on unpaid tax from the due date; 234B and 234C apply to advance-tax shortfalls. The Late ITR Penalty Calculator takes your income, tax paid, and filing date to estimate the late fee and 234A interest. It does not model 234B and 234C—those depend on your advance-tax instalments. The fee is capped and is in addition to the tax and interest. Confirm your due date and the applicable fee on the e-filing portal.",
+    "rule":  {
+                 "section":  "234F",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "late-itr-calculator"
+                  }
 }

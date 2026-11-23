@@ -7,7 +7,7 @@ export default function Privacy() {
     <>
       <Seo 
         title="Privacy Policy" 
-        description="Tax360 collects nothing. No login, no tracking, all data stays in your browser." 
+        description="Tax360 privacy policy: how we handle data, cookies, and third-party advertising (Google AdSense)." 
       />
       <div className="max-w-3xl mx-auto space-y-4">
         <header className="bg-white rounded-[12px] border border-[#E2E8F0] p-6">
@@ -15,39 +15,45 @@ export default function Privacy() {
           <p className="text-sm text-slate-500">Last updated: November 2026</p>
         </header>
 
-        <section className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 space-y-4 text-sm text-slate-700 leading-relaxed">
+        <section className="bg-white rounded-[12px] border border-[#E2E8F0] p-6 space-y-6 text-sm text-slate-700 leading-relaxed">
           <div>
-            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">We collect nothing.</h2>
+            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">1. Information We Collect</h2>
             <p>
-              Tax360 has <strong>no backend server, no user accounts, no login, and no tracking</strong>. Every calculation runs entirely inside your browser. Your inputs never leave your device.
+              Tax360 is designed as a privacy-first tool. We do <strong>not</strong> require user accounts, and we do <strong>not</strong> store or transmit the financial figures you enter into our calculators. All calculations are performed locally in your browser. When you close the page, your input data is cleared.
             </p>
           </div>
 
           <div>
-            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">Calculator Data</h2>
+            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">2. Cookies and Web Beacons</h2>
             <p>
-              The amounts, incomes, and details you type into any calculator are stored only in your browser's memory. They are erased the moment you close or refresh the page.
+              Like most websites, Tax360 may use "cookies" to store information about visitors' preferences and to record user-specific information on which pages the user accesses. 
+            </p>
+            <p className="mt-2">
+              We may also use third-party advertising companies (such as Google AdSense) to serve ads when you visit our website. These companies may use information (not including your name, address, email address, or telephone number) about your visits to this and other websites in order to provide advertisements about goods and services of interest to you.
             </p>
           </div>
 
           <div>
-            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">No Selling of Data</h2>
+            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">3. Google AdSense and the DoubleClick DART Cookie</h2>
             <p>
-              Since we don't collect data, we can't and don't sell it. There are no cookies, no analytics scripts, and no third-party tracking embedded in this app.
+              Google, as a third-party vendor, uses cookies to serve ads on Tax360. Google's use of the DART cookie enables it to serve ads to our users based on their visit to our site and other sites on the Internet. Users may opt out of the use of the DART cookie by visiting the <a href="https://www.google.com/settings/ads" target="_blank" rel="noreferrer" className="text-[#16A34A] underline">Google Ads Settings</a> page.
+            </p>
+            <p className="mt-2">
+              Third-party ad servers or ad networks may also use cookies to track user activities on this site to measure advertising effectiveness. Tax360 has no access to or control over these cookies that are used by third-party advertisers.
             </p>
           </div>
 
           <div>
-            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">Advertisements (Future)</h2>
+            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">4. How to Opt Out of Cookies</h2>
             <p>
-              In the future, Tax360 may display ads via Google AdSense to keep the service free. If so, Google may use cookies to serve ads based on your prior visits to this and other websites. You can opt out of personalized ads by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noreferrer" className="text-[#16A34A] underline">Google Ads Settings</a>.
+              You can choose to disable or selectively turn off our cookies or third-party cookies in your browser settings. However, this can affect how you are able to interact with our site as well as other websites. You can also opt out of personalized advertising by visiting <a href="https://www.aboutads.info/choices/" target="_blank" rel="noreferrer" className="text-[#16A34A] underline">AboutAds.info</a>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">Contact</h2>
+            <h2 className="text-lg font-bold text-[#0F2A44] mb-2">5. Contact</h2>
             <p>
-              For any privacy concern, email <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#16A34A] font-semibold">{CONTACT_EMAIL}</a>.
+              If you have any questions about this privacy policy, please contact us at <a href={`mailto:${CONTACT_EMAIL}`} className="text-[#16A34A] font-semibold">{CONTACT_EMAIL}</a>.
             </p>
           </div>
         </section>

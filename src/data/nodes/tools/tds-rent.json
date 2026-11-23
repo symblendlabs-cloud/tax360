@@ -1,11 +1,21 @@
-{
-  "id": "tool-tds-rent-2026-27",
-  "type": "tool",
-  "category": "tds",
-  "persona": ["business", "freelancer", "salaried"],
-  "title": "TDS on Rent (194I)",
-  "slug": "tds-rent-overview",
-  "shortAnswer": "Calculate TDS to deduct when paying rent over 2.4L/year.",
-  "rule": { "section": "194I", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tds-rent-calculator" }
+﻿{
+    "id":  "tool-tds-rent-2026-27",
+    "type":  "tool",
+    "category":  "tds",
+    "persona":  [
+                    "business",
+                    "freelancer",
+                    "salaried"
+                ],
+    "title":  "TDS on Rent (194I)",
+    "slug":  "tds-rent",
+    "shortAnswer":  "Calculate TDS to deduct when paying rent over 2.4L/year.",
+    "longAnswer": "Section 194I requires the tenant to deduct TDS at 10% on rent for land, building, or furniture, and at 2% on rent for plant and machinery, if the annual rent exceeds ₹2,40,000. The TDS on Rent Calculator takes the monthly rent to show the monthly TDS and the net rent payable. The threshold is ₹2,40,000 per payee per financial year, and it applies to the aggregate rent, not each payment. Individuals and HUFs not subject to tax audit are exempt from deducting TDS if the rent is below ₹2,40,000, but the threshold still governs. The landlord claims the TDS as a credit in their return. If the landlord is a non-resident, Section 195 applies instead. The calculator does not decide whether 194I or 195 applies—that depends on the landlord's residency. Confirm the section and the rate on the e-filing portal before deducting.",
+    "rule":  {
+                 "section":  "194I",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tds-rent-calculator"
+                  }
 }

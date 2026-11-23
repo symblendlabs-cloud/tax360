@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec24bCalculator() {
-  const node = getNodeBySlug('tool', '24b-overview')
+  const node = getNodeBySlug('tool', '24b')
   const [interest, setInterest] = useState(250000)
   
   const claimed = Math.min(interest, 200000)

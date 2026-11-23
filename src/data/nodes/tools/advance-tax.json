@@ -1,11 +1,21 @@
-{
-  "id": "tool-advance-tax-2026-27",
-  "type": "tool",
-  "category": "income-tax",
-  "persona": ["business", "freelancer", "salaried"],
-  "title": "Advance Tax Calculator",
-  "slug": "advance-tax-overview",
-  "shortAnswer": "Calculate your quarterly advance tax installments.",
-  "rule": { "section": "208", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "advance-tax-calculator" }
+﻿{
+    "id":  "tool-advance-tax-2026-27",
+    "type":  "tool",
+    "category":  "income-tax",
+    "persona":  [
+                    "business",
+                    "freelancer",
+                    "salaried"
+                ],
+    "title":  "Advance Tax Calculator",
+    "slug":  "advance-tax",
+    "shortAnswer":  "Calculate your quarterly advance tax installments.",
+    "longAnswer": "Advance tax is the income tax you pay in instalments during the financial year rather than as a lump sum at the end. It applies to anyone whose total tax liability for the year is ₹10,000 or more after adjusting TDS, including freelancers, businesses, and salaried people with large interest or capital gains income. The instalments are 15% by 15 June, 45% by 15 September, 75% by 15 December, and 100% by 15 March. Taxpayers under the presumptive scheme (44AD/44ADA) pay a single instalment by 15 March. Missing an instalment attracts interest under Section 234C, and paying less than 90% of the total liability by year-end attracts 234B. The calculator takes your estimated annual tax and shows the amount due at each date. It is an estimate—confirm your final liability in the e-filing portal's tax computation before paying.",
+    "rule":  {
+                 "section":  "208",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "advance-tax-calculator"
+                  }
 }

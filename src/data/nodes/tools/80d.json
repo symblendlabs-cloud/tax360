@@ -1,11 +1,20 @@
-{
-  "id": "tool-80d-2026-27",
-  "type": "tool",
-  "category": "deductions",
-  "persona": ["salaried", "senior"],
-  "title": "Section 80D Calculator",
-  "slug": "80d-overview",
-  "shortAnswer": "Calculate deduction for health insurance premiums.",
-  "rule": { "section": "80D", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "80d-calculator" }
+﻿{
+    "id":  "tool-80d-2026-27",
+    "type":  "tool",
+    "category":  "deductions",
+    "persona":  [
+                    "salaried",
+                    "senior"
+                ],
+    "title":  "Section 80D Calculator",
+    "slug":  "80d",
+    "shortAnswer":  "Calculate deduction for health insurance premiums.",
+    "longAnswer": "Section 80D allows a deduction for health insurance premiums and preventive health check-ups. For individuals below 60, the limit is ₹25,000 for self, spouse, and children, plus ₹25,000 for parents (₹50,000 if a parent is a senior citizen). For taxpayers aged 60 and above, the self-limit rises to ₹50,000. Preventive health check-ups are capped at ₹5,000 within these limits. The deduction is available only under the old tax regime—the new regime does not allow 80D. Premiums must be paid by cheque, card, or digital mode; cash payments are not eligible except for preventive check-ups. The calculator takes your age, parents' age, and premiums paid to show the allowable deduction. Group insurance paid by an employer is not eligible. Confirm the premium certificate from your insurer before claiming.",
+    "rule":  {
+                 "section":  "80D",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "80d-calculator"
+                  }
 }

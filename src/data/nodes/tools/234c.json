@@ -1,11 +1,19 @@
-{
-  "id": "tool-234c-2026-27",
-  "type": "tool",
-  "category": "penalty",
-  "persona": ["business"],
-  "title": "Interest 234C",
-  "slug": "234c-overview",
-  "shortAnswer": "Interest for deferment of advance tax.",
-  "rule": { "section": "234C", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "234c-calculator" }
+﻿{
+    "id":  "tool-234c-2026-27",
+    "type":  "tool",
+    "category":  "penalty",
+    "persona":  [
+                    "business"
+                ],
+    "title":  "Interest 234C",
+    "slug":  "234c",
+    "shortAnswer":  "Interest for deferment of advance tax.",
+    "longAnswer": "Section 234C charges interest for deferment of advance tax instalments. Advance tax is paid in four instalments—15 June, 15 September, 15 December, and 15 March—and each instalment must meet a minimum percentage of your total tax liability: 15%, 45%, 75%, and 100%. If you pay less than the required percentage by an instalment date, interest at 1% per month is charged for three months on the shortfall (one month for the March instalment). The calculator takes your tax liability and the amount paid at each instalment date to estimate the shortfall and the 234C interest. Taxpayers under the presumptive scheme (44AD/44ADA) have a single 100% instalment by 15 March. The final figure is computed by the department in the intimation, so use this as an estimate and confirm in the e-filing utility.",
+    "rule":  {
+                 "section":  "234C",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "234c-calculator"
+                  }
 }

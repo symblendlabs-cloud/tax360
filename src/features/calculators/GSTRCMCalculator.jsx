@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTRCMCalculator() {
-  const node = getNodeBySlug('tool', 'gst-rcm-overview')
+  const node = getNodeBySlug('tool', 'gst-rcm')
   const [amount, setAmount] = useState(50000)
   const [rate, setRate] = useState(18)
   

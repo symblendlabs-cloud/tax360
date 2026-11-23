@@ -1,11 +1,19 @@
-{
-  "id": "tool-gst-itc-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["business"],
-  "title": "Input Tax Credit (ITC) Calculator",
-  "slug": "gst-itc-overview",
-  "shortAnswer": "Calculate your net GST payable after claiming ITC.",
-  "rule": { "section": "16", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gst-itc-calculator" }
+﻿{
+    "id":  "tool-gst-itc-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "business"
+                ],
+    "title":  "Input Tax Credit (ITC) Calculator",
+    "slug":  "gst-itc",
+    "shortAnswer":  "Calculate your net GST payable after claiming ITC.",
+    "longAnswer": "Input Tax Credit (ITC) is the GST you paid on business purchases, which you can subtract from the GST you collect on sales. The GST ITC Calculator takes your output GST (on sales) and your eligible input GST (on purchases) to show the net GST payable or the credit carried forward. ITC is available only on purchases used for business, supported by a valid tax invoice, and reflected in your GSTR-2B. Blocked credits under Section 17(5)—such as motor vehicles, food and beverages, and club memberships—cannot be claimed. If your input tax exceeds your output tax, the excess is carried forward as a credit, not refunded (except for exports and inverted duty structures). The calculator does not check invoice-level eligibility; it assumes the input figure you enter is valid. Reconcile with GSTR-2B before filing GSTR-3B. Confirm the blocked-credit list on gst.gov.in.",
+    "rule":  {
+                 "section":  "16",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gst-itc-calculator"
+                  }
 }

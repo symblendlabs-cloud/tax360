@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec80TTACalculator() {
-  const node = getNodeBySlug('tool', '80tta-overview')
+  const node = getNodeBySlug('tool', '80tta')
   const [interest, setInterest] = useState(15000)
   
   const claimed = Math.min(interest, 10000)

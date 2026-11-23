@@ -7,7 +7,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTCalculator() {
-  const node = getNodeBySlug('tool', 'gst-overview')
+  const node = getNodeBySlug('tool', 'gst')
   const { fy } = useFY()
 
   const gstConfig = useMemo(() => {

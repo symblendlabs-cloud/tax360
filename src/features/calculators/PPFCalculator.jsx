@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function SIPCalculator() {
-  const node = getNodeBySlug('tool', 'ppf-overview')
+  const node = getNodeBySlug('tool', 'ppf')
   const [monthly, setMonthly] = useState(10000)
   const [rate, setRate] = useState(12)
   const [years, setYears] = useState(10)

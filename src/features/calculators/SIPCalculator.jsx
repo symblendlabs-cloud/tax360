@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function SIPCalculator() {
-  const node = getNodeBySlug('tool', 'sip-overview')
+  const node = getNodeBySlug('tool', 'sip')
   const [monthly, setMonthly] = useState(10000)
   const [rate, setRate] = useState(12)
   const [years, setYears] = useState(10)

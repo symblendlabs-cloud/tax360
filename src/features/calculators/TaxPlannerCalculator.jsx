@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TaxPlannerCalculator() {
-  const node = getNodeBySlug('tool', 'tax-planner-overview')
+  const node = getNodeBySlug('tool', 'tax-planner')
   const [taxBracket, setTaxBracket] = useState(30)
   const [invested, setInvested] = useState(50000)
   

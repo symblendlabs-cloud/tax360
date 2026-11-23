@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function TDSFDCalculator() {
-  const node = getNodeBySlug('tool', 'tds-fd-overview')
+  const node = getNodeBySlug('tool', 'tds-fd')
   const [interest, setInterest] = useState(60000)
   const [senior, setSenior] = useState(false)
   

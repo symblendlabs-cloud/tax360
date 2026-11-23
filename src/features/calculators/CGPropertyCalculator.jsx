@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function CGPropertyCalculator() {
-  const node = getNodeBySlug('tool', 'cg-property-overview')
+  const node = getNodeBySlug('tool', 'cg-property')
   const [buyPrice, setBuyPrice] = useState(5000000)
   const [sellPrice, setSellPrice] = useState(8000000)
   const [holdingYears, setHoldingYears] = useState(3)

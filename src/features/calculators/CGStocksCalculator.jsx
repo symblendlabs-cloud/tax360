@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function CGStocksCalculator() {
-  const node = getNodeBySlug('tool', 'cg-stocks-overview')
+  const node = getNodeBySlug('tool', 'cg-stocks')
   const [buyPrice, setBuyPrice] = useState(100000)
   const [sellPrice, setSellPrice] = useState(250000)
   const [holdingMonths, setHoldingMonths] = useState(18)

@@ -1,11 +1,20 @@
-{
-  "id": "tool-tds-professional-2026-27",
-  "type": "tool",
-  "category": "tds",
-  "persona": ["freelancer", "business"],
-  "title": "TDS on Professional Fees (194J)",
-  "slug": "tds-professional-overview",
-  "shortAnswer": "Calculate 10% TDS on consulting or professional fees.",
-  "rule": { "section": "194J", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "tds-professional-calculator" }
+﻿{
+    "id":  "tool-tds-professional-2026-27",
+    "type":  "tool",
+    "category":  "tds",
+    "persona":  [
+                    "freelancer",
+                    "business"
+                ],
+    "title":  "TDS on Professional Fees (194J)",
+    "slug":  "tds-professional",
+    "shortAnswer":  "Calculate 10% TDS on consulting or professional fees.",
+    "longAnswer": "Section 194J requires the payer to deduct TDS at 10% on fees for professional services, technical services, royalties, and non-compete fees. For technical services, the rate was reduced to 2% for payments made between 1 April 2020 and 31 March 2021, and certain notifications apply; confirm the current rate for your payment type. The threshold is ₹30,000 per payee in a financial year. The TDS on Professional Fees Calculator takes the fee amount to show the TDS to deduct and the net payable. The payee claims the TDS as a credit in their return. Directors' remuneration and certain other payments have their own thresholds and rates. The calculator does not decide whether a payment is 'professional' under 194J or 'work' under 194C—that depends on the nature of the service. Confirm the rate and threshold on the e-filing portal before deducting.",
+    "rule":  {
+                 "section":  "194J",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "tds-professional-calculator"
+                  }
 }

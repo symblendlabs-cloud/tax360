@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GoldTaxCalculator() {
-  const node = getNodeBySlug('tool', 'gold-tax-overview')
+  const node = getNodeBySlug('tool', 'gold-tax')
   const [buyPrice, setBuyPrice] = useState(500000)
   const [sellPrice, setSellPrice] = useState(800000)
   const [holdingMonths, setHoldingMonths] = useState(36)

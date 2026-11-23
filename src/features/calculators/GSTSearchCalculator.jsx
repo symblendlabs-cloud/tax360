@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTSearchCalculator() {
-  const node = getNodeBySlug('tool', 'gst-search-overview')
+  const node = getNodeBySlug('tool', 'gst-search')
   const [hsn, setHsn] = useState('')
   
   // Real dummy database for local use

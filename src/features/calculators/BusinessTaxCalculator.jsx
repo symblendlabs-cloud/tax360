@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function BusinessTaxCalculator() {
-  const node = getNodeBySlug('tool', 'business-tax-overview')
+  const node = getNodeBySlug('tool', 'business-tax')
   const [profit, setProfit] = useState(10000000) // 1 Crore
   const [is115BAA, setIs115BAA] = useState(true) 
   

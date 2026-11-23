@@ -1,11 +1,20 @@
-{
-  "id": "tool-gst-late-fee-2026-27",
-  "type": "tool",
-  "category": "gst",
-  "persona": ["business", "freelancer"],
-  "title": "GST Late Fee Calculator",
-  "slug": "gst-late-fee-overview",
-  "shortAnswer": "Calculate interest and late fees for delayed GST filing.",
-  "rule": { "section": "47", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "gst-late-fee-calculator" }
+﻿{
+    "id":  "tool-gst-late-fee-2026-27",
+    "type":  "tool",
+    "category":  "gst",
+    "persona":  [
+                    "business",
+                    "freelancer"
+                ],
+    "title":  "GST Late Fee Calculator",
+    "slug":  "gst-late-fee",
+    "shortAnswer":  "Calculate interest and late fees for delayed GST filing.",
+    "longAnswer": "Late filing of GST returns attracts a late fee under Section 47 of the CGST Act, in addition to interest on the tax paid late. The late fee is ₹50 per day for GSTR-3B and GSTR-1 (₹25 CGST + ₹25 SGST), capped based on turnover—₹2,000 for nil returns and higher caps for others. Interest is 18% per annum on the unpaid tax, calculated from the due date. The GST Late Fee Calculator takes the number of days late, the return type, and the tax due to estimate the total late fee and interest. Nil returns attract only the late fee, not interest. The calculator does not model the turnover-based cap exactly—check the current cap for your turnover slab. Late fees and interest are not deductible as business expenses. Pay through the GST portal's return filing flow. Confirm the current rates on gst.gov.in, as they are revised by notifications.",
+    "rule":  {
+                 "section":  "47",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "gst-late-fee-calculator"
+                  }
 }

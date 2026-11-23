@@ -1,11 +1,20 @@
-{
-  "id": "tool-swp-2026-27",
-  "type": "tool",
-  "category": "finance",
-  "persona": ["salaried", "senior"],
-  "title": "SWP Calculator",
-  "slug": "swp-overview",
-  "shortAnswer": "Systematic Withdrawal Plan for retirement income.",
-  "rule": { "section": "—", "fy": "2026-27" },
-  "discovery": { "calculatorSlug": "swp-calculator" }
+﻿{
+    "id":  "tool-swp-2026-27",
+    "type":  "tool",
+    "category":  "finance",
+    "persona":  [
+                    "salaried",
+                    "senior"
+                ],
+    "title":  "SWP Calculator",
+    "slug":  "swp",
+    "shortAnswer":  "Systematic Withdrawal Plan for retirement income.",
+    "longAnswer": "A Systematic Withdrawal Plan (SWP) lets you withdraw a fixed amount from a mutual fund at regular intervals while the remaining corpus stays invested. The SWP Calculator takes your initial corpus, expected return, monthly withdrawal, and duration to show how long the corpus lasts and the balance at the end. It models the withdrawals against the growth of the remaining corpus, so a high withdrawal relative to the return depletes the corpus faster. On the tax side, each withdrawal is treated as a partial redemption: for equity funds, gains are taxed at 12.5% long-term (over 12 months) or 20% short-term; for debt funds, at slab. The calculator does not apply tax—it shows the pre-tax withdrawal. The return is assumed constant, and the sequence of returns matters in reality, so treat the projection as illustrative. Confirm the fund's exit load and the tax treatment before setting up an SWP.",
+    "rule":  {
+                 "section":  "â€”",
+                 "fy":  "2026-27"
+             },
+    "discovery":  {
+                      "calculatorSlug":  "swp-calculator"
+                  }
 }

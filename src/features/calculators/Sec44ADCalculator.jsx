@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function Sec44ADCalculator() {
-  const node = getNodeBySlug('tool', '44ad-overview')
+  const node = getNodeBySlug('tool', '44ad')
   const [turnover, setTurnover] = useState(5000000)
   const [digital, setDigital] = useState(false) // true = 6%, false = 8%
   

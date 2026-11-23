@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function GSTFreelancerCalculator() {
-  const node = getNodeBySlug('tool', 'gst-freelancer-overview')
+  const node = getNodeBySlug('tool', 'gst-freelancer')
   const [revenue, setRevenue] = useState(2000000) // 20 Lakhs
   
   const limit = 2000000

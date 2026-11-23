@@ -5,7 +5,7 @@ import TaxInput from '../../core/ui/TaxInput'
 import ResultCard from '../../core/ui/ResultCard'
 
 export default function FDTaxCalculator() {
-  const node = getNodeBySlug('tool', 'fd-tax-overview')
+  const node = getNodeBySlug('tool', 'fd-tax')
   const [interest, setInterest] = useState(50000)
   const [slab, setSlab] = useState(20)
   
